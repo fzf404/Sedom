@@ -1,14 +1,12 @@
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 2.6em;
-  }
+h1 {
+  font-size: 2.6em;
+}
 
-  h2 {
-    font-size: 1.8em;
-  }
+h2 {
+  font-size: 1.8em;
+}
 
-  .center {
-    width: 90%;
-    text-align: center;
-  }
+.center {
+  width: 90%;
+  text-align: center;
 }

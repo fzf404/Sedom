@@ -130,6 +130,3 @@ table tr:nth-child(odd) {
 table tr:nth-child(even) {
   background: #fff;
 }
-
-/* 移动端适配 */
-@import url(mobile.css);
