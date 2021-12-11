@@ -1,0 +1,26 @@
+.fr {
+  float: right;
+}
+
+.center {
+  width: 330px;
+  text-align: center;
+}
+
+.load {
+  display: none;
+}
+
+.notice,
+.notice * {
+  color: var(--common-red);
+}
+
+.second {
+  color: var(--common-dark);
+}
+
+.notice,
+.second {
+  margin-bottom: 0.6em;
+}

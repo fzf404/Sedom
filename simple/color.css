@@ -1,0 +1,62 @@
+body {
+  --common-black: #232323;
+  --common-dark: #454545;
+  --common-red: #b41622;
+}
+
+.purple:after {
+  background-color: rgba(128, 32, 255, 0.4);
+}
+
+.blue-dark:after {
+  background-color: rgba(64, 64, 255, 0.4);
+}
+
+.blue:after {
+  background-color: rgba(32, 128, 255, 0.4);
+}
+
+.green-blue:after {
+  background-color: rgba(32, 192, 192, 0.5);
+}
+
+.green:after {
+  background-color: rgba(64, 192, 128, 0.5);
+}
+
+.yellow-green:after {
+  background-color: rgba(192, 246, 64, 0.8);
+}
+
+.yellow:after {
+  background-color: rgba(246, 234, 16, 0.7);
+}
+
+.orange:after {
+  background-color: rgba(255, 128, 32, 0.5);
+}
+
+.red:after {
+  background-color: rgba(255, 64, 64, 0.5);
+}
+
+.pink:after {
+  background-color: rgba(255, 32, 128, 0.4);
+}
+
+/* 灰色 */
+.grey:after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.grey-blue:after {
+  background-color: rgb(64, 64, 128, 0.35);
+}
+
+.grey-green:after {
+  background-color: rgb(32, 64, 32, 0.3);
+}
+
+.grey-red:after {
+  background-color: rgb(64, 32, 32, 0.3);
+}

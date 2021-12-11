@@ -1,0 +1,135 @@
+@import url("color.css");
+@import url("style.css");
+
+body {
+  /* 内边距 */
+  padding: 10vh 10vw;
+}
+
+h1,
+h2 {
+  /* 显示emoji */
+  font-weight: 550;
+}
+
+h1 {
+  /* 文字大小 */
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.4em;
+  /* 字体粗细 */
+  font-weight: 300;
+  /* 行高 */
+  line-height: 2em;
+
+  /* 最大宽度 */
+  max-width: 600px;
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  /* 盒模型 */
+  display: inline-block;
+  /* 相对当前位置定位 */
+  position: relative;
+
+  /* 字体颜色 */
+  color: #121314;
+  /* 不展示下划线 */
+  text-decoration: none;
+
+  margin: 0.2em 1.2em 0.2em 0.4em;
+
+  /* 最大宽度 */
+  max-width: 140px;
+}
+
+/* 伪元素 */
+a:after {
+  /* 内容为空 */
+  content: "";
+  /* 绝对定位 */
+  position: absolute;
+  /* z轴降低 */
+  z-index: -1;
+
+  top: 60%;
+  left: -0.4em;
+  right: -0.4em;
+  bottom: 0;
+
+  border-radius: 0.4em;
+
+  /* 延时变换 */
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(30, 128, 255, 0.4);
+}
+
+/* 伪类修改伪元素 */
+a:hover:after {
+  top: 0%;
+}
+
+input {
+  font-family: monospace;
+  font-size: 1.4em;
+  padding: 0.2em;
+  max-width: 400px;
+}
+
+label {
+  /* 显示类型 */
+  display: inline-block;
+
+  font-size: 1.4em;
+  /* 字体粗细 */
+  font-weight: 300;
+  /* 行高 */
+  line-height: 1.6em;
+
+  /* 最小宽度 */
+  min-width: 60px;
+  /* 底部距离 */
+  margin: 0.5em 0;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+
+  margin: 1.8em 0;
+}
+
+table td,
+table th {
+  color: var(--common-dark);
+  border: 1px solid #9dc6d2;
+  height: 30px;
+  padding: 0.4em 0.2em;
+}
+
+table th {
+  color: var(--common-black);
+  background-color: #b5d4dd;
+  width: 160px;
+}
+
+table tr:nth-child(odd) {
+  background: #eff6f8;
+}
+
+table tr:nth-child(even) {
+  background: #fff;
+}
+
+/* 移动端适配 */
+@import url(mobile.css);
