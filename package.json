@@ -1,6 +1,6 @@
 {
   "name": "web-themes",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "fzf404's web themes",
   "main": "index.js",
   "scripts": {
