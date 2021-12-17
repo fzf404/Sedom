@@ -1,4 +1,5 @@
 @import url("color.css");
+@import url("theme.css");
 @import url("style.css");
 
 body {
@@ -111,16 +112,15 @@ table {
 
 table td,
 table th {
-  color: var(--common-dark);
+  color: var(--common-deep);
   border: 1px solid #9dc6d2;
-  height: 30px;
-  padding: 0.4em 0.2em;
+  padding: 0.6em 1em;
+  max-width: 160px;
 }
 
 table th {
-  color: var(--common-black);
+  color: var(--common-dark);
   background-color: #b5d4dd;
-  width: 160px;
 }
 
 table tr:nth-child(odd) {

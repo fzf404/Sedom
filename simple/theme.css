@@ -1,0 +1,23 @@
+.dark body,
+.dark input,
+.dark textarea,
+.dark select,
+.dark button {
+  background-color: var(--common-dark);
+  color: var(--common-light);
+}
+
+.dark a {
+  color: var(--common-light);
+}
+
+.dark .second,
+.dark .second * {
+  color: var(--common-light);
+}
+
+.dark table * {
+  background-color: var(--common-dark) !important;
+  border-color: var(--common-deep) !important;
+  color: var(--common-light) !important;
+}

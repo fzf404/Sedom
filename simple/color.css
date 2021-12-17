@@ -1,7 +1,8 @@
 body {
-  --common-black: #232323;
-  --common-dark: #454545;
+  --common-dark: #1f2020;
+  --common-deep: #454545;
   --common-red: #b41622;
+  --common-light: #eae5dd;
 }
 
 .purple:after {
