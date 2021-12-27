@@ -1,11 +1,15 @@
 {
   "name": "web-themes",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "fzf404's web themes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fzf404/web-themes"
+  },
   "author": "fzf404",
-  "license": "ISC"
+  "license": "MIT"
 }

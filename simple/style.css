@@ -17,6 +17,10 @@
   color: var(--common-deep);
 }
 
+.help{
+  display: none;
+}
+
 .jump {
   animation: bounce 0.3s cubic-bezier(0.05, 0, 0.2, 1) infinite alternate;
   display: inline-block;

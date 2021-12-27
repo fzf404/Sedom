@@ -1,6 +1,6 @@
 // 主题
 const tmp = localStorage.getItem("theme");
-let theme = tmp ? tmp : "light";
+let theme = tmp ? tmp : "dark";
 
 // 设置主题
 document.documentElement.setAttribute("class", theme);
