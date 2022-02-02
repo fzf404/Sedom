@@ -1,5 +1,6 @@
 body {
   --common-dark: #1f2020;
+  --common-dark-light: #aaa;
   --common-deep: #454545;
   --common-red: #b41622;
   --common-light: #eae5dd;
@@ -26,7 +27,7 @@ body {
 }
 
 .yellow-green:after {
-  background-color: rgba(192, 246, 64, 0.8);
+  background-color: rgba(192, 246, 64, 0.7);
 }
 
 .yellow:after {
