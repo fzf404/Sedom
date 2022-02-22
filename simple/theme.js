@@ -1,22 +1,26 @@
-// 主题
-const tmp = localStorage.getItem("theme");
-let theme = tmp ? tmp : "dark";
-
-// 设置主题
-document.documentElement.setAttribute("class", theme);
+// 获取主题
+const getTheme = () => {
+  const theme = localStorage.getItem('theme')
+  return theme ? theme : 'dark'
+}
 
 // 修改主题
-function onChangeTheme() {
+export function changeTheme() {
+  const theme = getTheme()
   switch (theme) {
-    case "dark":
-      theme = "light";
-      document.documentElement.setAttribute("class", theme);
-      localStorage.setItem("theme", theme);
-      break;
-    case "light":
-      theme = "dark";
-      document.documentElement.setAttribute("class", theme);
-      localStorage.setItem("theme", theme);
-      break;
+    case 'dark':
+      document.documentElement.setAttribute('class', 'light')
+      localStorage.setItem('theme', 'light')
+      break
+    case 'light':
+      document.documentElement.setAttribute('class', 'dark')
+      localStorage.setItem('theme', 'dark')
+      break
   }
+}
+
+// 初始化
+export function initTheme() {
+  const theme = getTheme()
+  document.documentElement.setAttribute('class', theme)
 }
