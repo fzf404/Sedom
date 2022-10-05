@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sedom/dist/sedom.min.css" />
 ```
 
-> 将下方代码粘贴至 body 标签下
+> 将下方代码粘贴至 body 标签
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/sedom/dist/sedom.min.js"></script>
