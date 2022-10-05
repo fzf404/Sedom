@@ -1,14 +1,13 @@
 {
   "name": "sedom",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A minimalist css library",
   "main": "js/index.js",
   "author": "fzf404",
   "homepage": "https://sedom.fzf404.art/",
   "scripts": {
-    "dev": "rollup --config rollup.config.js --watch",
-    "preview": "live-server --port=3000 --open=docs",
-    "build": "rollup --config rollup.config.js"
+    "dev": "rollup --config rollup.config.dev.js --watch",
+    "release": "rollup --config rollup.config.js && npm publish"
   },
   "keywords": [
     "css"
