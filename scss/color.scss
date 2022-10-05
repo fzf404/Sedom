@@ -1,0 +1,61 @@
+$white: #f1f3f5;
+$light: #dee2e6;
+$gray: #868e96;
+$dark: #495057;
+$black: #212529;
+
+$red: #f03e3e;
+$pink: #d6336c;
+$purple: #ae3ec9;
+$violet: #7048e8;
+$indigo: #4263eb;
+$blue: #1c7cd6;
+$cyan: #1098ad;
+$teal: #0ca678;
+$green: #37b24d;
+$lime: #74b816;
+$yellow: #f59f00;
+$orange: #f76707;
+
+// 颜色列表
+$colors: (
+  white: $white,
+  light: $light,
+  gray: $gray,
+  dark: $dark,
+  black: $black,
+
+  red: $red,
+  pink: $pink,
+  purple: $purple,
+  violet: $violet,
+  indigo: $indigo,
+  blue: $blue,
+  cyan: $cyan,
+  teal: $teal,
+  green: $green,
+  lime: $lime,
+  yellow: $yellow,
+  orange: $orange,
+);
+
+// 文字颜色
+@each $name, $color in $colors {
+  .text-#{'' + $name} {
+    color: $color;
+  }
+}
+
+/* 背景颜色 */
+@each $name, $color in $colors {
+  .bg-#{'' + $name} {
+    background-color: $color;
+  }
+}
+
+/* 标签颜色 */
+@each $name, $color in $colors {
+  .a-#{'' + $name}::after {
+    background-color: $color;
+  }
+}

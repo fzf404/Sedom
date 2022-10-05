@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sedom</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sedom/dist/sedom.min.css" />
+  </head>
+  <body>
+    <h1>Sedom</h1>
+    <h3>一个极简样式库</h3>
+    <p>编写 HTML 代码并获得良好的视觉效果</p>
+    <h6>
+      <a class="right a-green" href="demo.html">Demo</a>
+      <a class="right a-red" href="docs.html">Docs</a>
+      <a class="right a-blue" href="https://github.com/fzf404/Sedom">Github</a>
+    </h6>
+  </body>
+  <script>
+    // 调试模式切换
+    if (window.location.host != 'sedom.fzf404.art') {
+      document.querySelector('link[rel=stylesheet]').href = '../dist/sedom.css'
+    }
+  </script>
+</html>
