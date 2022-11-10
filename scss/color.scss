@@ -42,20 +42,20 @@ $colors: (
 // 文字颜色
 @each $name, $color in $colors {
   .text-#{'' + $name} {
-    color: $color;
+    color: $color !important;
   }
 }
 
 /* 背景颜色 */
 @each $name, $color in $colors {
   .bg-#{'' + $name} {
-    background-color: $color;
+    background-color: $color !important;
   }
 }
 
 /* 标签颜色 */
 @each $name, $color in $colors {
   .a-#{'' + $name}::after {
-    background-color: $color;
+    background-color: $color !important;
   }
 }
