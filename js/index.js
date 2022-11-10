@@ -2,30 +2,25 @@ import '../scss/index.scss'
 
 // 获取主题
 const getTheme = () => {
-  const theme = localStorage.getItem('theme') // 获取主题
-  return theme ? theme : 'dark'
+  return localStorage.getItem('theme') || 'dark'
 }
 
 // 切换主题
 const changeTheme = () => {
-  const theme = getTheme()
-  switch (theme) {
+  switch (getTheme()) {
     case 'dark':
       document.documentElement.setAttribute('class', 'light')
-      localStorage.setItem('theme', 'light')
-      break
+      return localStorage.setItem('theme', 'light')
     case 'light':
       document.documentElement.setAttribute('class', 'dark')
-      localStorage.setItem('theme', 'dark')
-      break
+      return localStorage.setItem('theme', 'dark')
   }
 }
 
 // 初始化主题
 const initTheme = () => {
   // 设置主题
-  const theme = getTheme()
-  document.documentElement.setAttribute('class', theme)
+  document.documentElement.setAttribute('class', getTheme())
   // 切换主题
   document.querySelectorAll('.theme').forEach((el) => {
     el.addEventListener('click', changeTheme)

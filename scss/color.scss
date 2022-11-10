@@ -46,14 +46,14 @@ $colors: (
   }
 }
 
-/* 背景颜色 */
+// 背景颜色
 @each $name, $color in $colors {
   .bg-#{'' + $name} {
     background-color: $color !important;
   }
 }
 
-/* 标签颜色 */
+// 标签颜色
 @each $name, $color in $colors {
   .a-#{'' + $name}::after {
     background-color: $color !important;
