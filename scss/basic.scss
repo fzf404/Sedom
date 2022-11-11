@@ -14,64 +14,71 @@ h3,
 h4,
 h5,
 h6 {
+  max-width: 36rem;
   white-space: nowrap;
+}
+
+h1,
+h2 {
+  margin: 2.4rem 0;
+}
+
+h3,
+h4 {
+  margin: 2.2rem 0;
+}
+
+h5,
+h6 {
+  margin: 2rem 0;
+}
+
+p,
+pre {
+  margin: 1.8rem 0;
+  max-width: 42rem;
 }
 
 h1 {
   font-size: 4rem;
   line-height: 4.4rem;
   min-height: 4.4rem;
-  max-width: 36rem;
-  margin: 36px 0;
 }
 
 h2 {
   font-size: 3.2rem;
   line-height: 3.6rem;
   min-height: 3.6rem;
-  max-width: 36rem;
-  margin: 36px 0;
 }
 
 h3 {
   font-size: 2.6rem;
   line-height: 3rem;
   min-height: 3rem;
-  max-width: 36rem;
-  margin: 32px 0;
 }
 
 h4 {
   font-size: 2.2rem;
   line-height: 2.6rem;
   min-height: 2.6rem;
-  max-width: 36rem;
-  margin: 32px 0;
 }
 
 h5 {
   font-size: 1.8rem;
   line-height: 2.2rem;
   min-height: 2.2rem;
-  max-width: 36rem;
-  margin: 28px 0;
 }
 
 h6 {
   font-size: 1.6rem;
   line-height: 2rem;
   min-height: 2rem;
-  max-width: 36rem;
-  margin: 28px 0;
 }
 
 p {
   font-size: 1.4rem;
   line-height: 1.6rem;
-
   min-height: 1.6rem;
-  margin: 28px 0;
-  max-width: 36rem;
 
   a:first-child {
     margin-left: 0.4rem;
@@ -83,7 +90,7 @@ a {
   display: inline-block;
 
   margin: 0 0.8rem;
-  padding: 0.5rem 0.2rem;
+  padding: 0.6rem 0.2rem;
 
   text-decoration: none;
 
@@ -111,9 +118,6 @@ a {
 
 pre {
   font-size: 1.2rem;
-  line-height: 1.4rem;
-
   min-height: 1.4rem;
-  margin: 24px 0;
-  max-width: 36rem;
+  line-height: 1.4rem;
 }

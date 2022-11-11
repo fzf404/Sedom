@@ -23,6 +23,6 @@ export default {
       port: '3000',
       openPage: '/docs/index.html',
     }),
-    livereload({ watch: 'dist' }),
+    livereload({ watch: ['dist', 'docs'] }),
   ],
 }
