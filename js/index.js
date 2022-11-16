@@ -6,7 +6,7 @@ const getTheme = () => {
 }
 
 // 切换主题
-const changeTheme = () => {
+const toggleTheme = () => {
   switch (getTheme()) {
     case 'dark':
       document.documentElement.setAttribute('class', 'light')
@@ -23,7 +23,7 @@ const initTheme = () => {
   document.documentElement.setAttribute('class', getTheme())
   // 切换主题
   document.querySelectorAll('.theme').forEach((el) => {
-    el.addEventListener('click', changeTheme)
+    el.addEventListener('click', toggleTheme)
   })
 }
 
@@ -50,10 +50,29 @@ const initColor = () => {
   })
 }
 
-// 初始化 DOM
-const initDOM = () => {
-  initTheme()
-  initColor()
+// 初始化代码
+const initCode = () => {
+  document.querySelectorAll('code').forEach((el) => {
+    console.log('el.innerHTML', el.innerHTML)
+    el.innerText = el.innerHTML
+  })
 }
 
-document.addEventListener('DOMContentLoaded', initDOM)
+// 初始化 DOM
+const initDom = () => {
+  initTheme()
+  initColor()
+  initCode()
+}
+
+// 初始化 Sedom
+const initSedom = () => {
+  if (window.Sedom) {
+    return
+  } else {
+    window.Sedom = { getTheme, toggleTheme }
+    document.addEventListener('DOMContentLoaded', initDom)
+  }
+}
+
+initSedom()
