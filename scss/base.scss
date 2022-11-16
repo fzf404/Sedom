@@ -49,8 +49,8 @@ code {
   margin: 1.4rem 0;
 }
 
-small {
-  display: inline-block;
+form {
+  margin: 1.2rem 0;
 }
 
 h1 {
@@ -155,17 +155,19 @@ code {
   white-space: nowrap;
 }
 
-label {
-  min-height: 2.2rem;
-  font-size: 1.2rem;
-  line-height: 2.2rem;
-}
-
 small {
   display: block;
 
   min-height: 2.2rem;
   font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+label {
+  margin-right: 0.6rem;
+
+  min-height: 2.2rem;
+  font-size: 1.4rem;
   line-height: 2.2rem;
 }
 
@@ -175,7 +177,8 @@ input {
 
   padding: 0.4rem 0.6rem;
 
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-family: monospace, sans-serif;
 
   &:focus {
     outline: none;

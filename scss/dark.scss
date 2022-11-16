@@ -17,7 +17,6 @@ p {
 }
 
 code,
-span,
 small {
   color: $neutral;
 }
@@ -31,11 +30,11 @@ code {
 }
 
 input {
-  border-color: $gray;
-  background-color: $gray;
-  color: $white;
+  border-color: $dark;
+  background-color: $dark;
+  color: $light;
 
   &:focus {
-    border-color: $neutral;
+    border-color: $gray;
   }
 }

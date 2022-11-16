@@ -13,7 +13,6 @@ h6 {
 
 a,
 p,
-span,
 code,
 label,
 small {
@@ -26,12 +25,11 @@ hr {
 
 code {
   background-color: $light;
-  color: $gray;
 }
 
 input {
   border-color: $light;
-
+  color: $dark;
   background-color: $light;
 
   &:focus {
