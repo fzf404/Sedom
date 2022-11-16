@@ -13,11 +13,28 @@ h6 {
 
 a,
 p,
+span,
 code,
+label,
 small {
   color: $dark;
 }
 
-a::after {
-  background-color: $gray;
+hr {
+  border-top-color: $light;
+}
+
+code {
+  background-color: $light;
+  color: $gray;
+}
+
+input {
+  border-color: $light;
+
+  background-color: $light;
+
+  &:focus {
+    border-color: $neutral;
+  }
 }

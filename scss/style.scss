@@ -12,6 +12,20 @@
   -webkit-user-select: none;
 }
 
+.space {
+  > * {
+    margin-right: 1.2rem;
+  }
+
+  a {
+    margin-right: 1.6rem;
+  }
+
+  span {
+    margin-right: 0.8rem;
+  }
+}
+
 .jump {
   display: inline-block;
   animation: bounce 1s infinite;

@@ -53,7 +53,7 @@ const initColor = () => {
 // 初始化代码
 const initCode = () => {
   document.querySelectorAll('code').forEach((el) => {
-    el.innerText = el.innerHTML
+    el.innerText = el.innerHTML.replace(/(^\s*)/g, '')
   })
 }
 

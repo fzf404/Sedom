@@ -11,13 +11,31 @@ h6 {
   color: $white;
 }
 
-p,
 a,
-a::after {
+p {
   color: $light;
 }
 
 code,
+span,
 small {
-  color: $gray;
+  color: $neutral;
+}
+
+hr {
+  border-color: $gray;
+}
+
+code {
+  background-color: $dark;
+}
+
+input {
+  border-color: $gray;
+  background-color: $gray;
+  color: $white;
+
+  &:focus {
+    border-color: $neutral;
+  }
 }
