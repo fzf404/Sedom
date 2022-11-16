@@ -13,14 +13,11 @@ h6 {
 
 p,
 a,
-pre {
+a::after {
   color: $light;
 }
 
-a::after {
-  background-color: $light;
-}
-
-code {
+code,
+small {
   color: $gray;
 }

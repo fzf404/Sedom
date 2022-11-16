@@ -6,16 +6,15 @@
   float: right;
 }
 
-.protect{
+.protect {
+  cursor: default;
   user-select: none;
   -webkit-user-select: none;
-  
-  cursor: default;
 }
 
 .jump {
-  animation: bounce 1s infinite;
   display: inline-block;
+  animation: bounce 1s infinite;
 
   @keyframes bounce {
     0%,
