@@ -1,6 +1,6 @@
 {
   "name": "sedom",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A minimalist css library",
   "main": "js/index.js",
   "author": "fzf404",

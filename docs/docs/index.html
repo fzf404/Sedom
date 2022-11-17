@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Sedom - Docs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="https://img.fzf404.art/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="https://img.fzf404.art/favicon.ico" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sedom/dist/sedom.min.css" />
     <link rel="stylesheet" href="../../dist/sedom.css" />
     <script src="https://cdn.jsdelivr.net/npm/sedom/dist/sedom.min.js"></script>
@@ -153,25 +153,23 @@
     <h4>输入</h4>
 
     <code>
-      <label>姓名</label>
-      <input type="text" placeholder="请输入姓名" />
-
-      <label>密码</label>
-      <input type="text" placeholder="请输入密码" />
+      <label for="name">姓名</label>
+      <input id="name" type="text" placeholder="请输入姓名" />
+      <br />
+      <label for="password">密码</label>
+      <input id="password" type="password" placeholder="请输入密码" />
     </code>
 
     <form>
-      <label>姓名</label>
-      <input type="text" placeholder="请输入姓名" />
+      <label for="name">姓名</label>
+      <input id="name" type="text" placeholder="请输入姓名" />
+      <br />
+      <label for="password">密码</label>
+      <input id="password" type="password" placeholder="请输入密码" />
     </form>
 
-    <form>
-      <label>密码</label>
-      <input type="password" placeholder="请输入密码" />
-    </form>
-
-    <h6>
-      <a class="right a-blue" href="..">返回</a>
+    <h6 class="right">
+      <a class="a-blue" href="..">返回</a>
     </h6>
   </body>
 </html>
