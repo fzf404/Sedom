@@ -14,15 +14,13 @@
 
 .space {
   > * {
-    margin-right: 1.2rem;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
   }
 
-  a {
-    margin-right: 1.6rem;
-  }
-
-  span {
+  > a {
     margin-right: 0.8rem;
+    margin-left: 0.8rem;
   }
 }
 

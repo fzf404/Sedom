@@ -2,102 +2,94 @@
   font-weight: 100;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-p,
-hr,
-code,
-input,
-small {
-  max-width: 36rem;
-}
+h1 {
+  display: block;
+  margin: 2rem 0;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-code,
-span {
+  max-width: 36rem;
+  min-height: 5rem;
+
+  font-size: 4rem;
+  line-height: 5rem;
+
   white-space: nowrap;
 }
 
-h1,
-h2,
-hr {
-  margin: 2rem 0;
-}
-
-h3,
-h4 {
-  margin: 1.8rem 0;
-}
-
-h5,
-h6 {
-  margin: 1.6rem 0;
-}
-
-p,
-code {
-  margin: 1.4rem 0;
-}
-
-form {
-  margin: 1.2rem 0;
-}
-
-h1 {
-  min-height: 5rem;
-  font-size: 4rem;
-  line-height: 5rem;
-}
-
 h2 {
+  display: block;
+  margin: 2rem 0;
+
+  max-width: 36rem;
   min-height: 4.2rem;
+
   font-size: 3.2rem;
   line-height: 4.2rem;
+
+  white-space: nowrap;
 }
 
 h3 {
+  display: block;
+  margin: 1.8rem 0;
+
+  max-width: 36rem;
   min-height: 3.6rem;
+
   font-size: 2.6rem;
   line-height: 3.6rem;
+
+  white-space: nowrap;
 }
 
 h4 {
+  display: block;
+  margin: 1.8rem 0;
+
+  max-width: 36rem;
   min-height: 3.2rem;
+
   font-size: 2.2rem;
   line-height: 3.2rem;
+
+  white-space: nowrap;
 }
 
 h5 {
+  display: block;
+  margin: 1.6rem 0;
+
+  max-width: 36rem;
   min-height: 2.8rem;
+
   font-size: 1.8rem;
   line-height: 2.8rem;
+
+  white-space: nowrap;
 }
 
 h6 {
+  display: block;
+  margin: 1.6rem 0;
+
+  max-width: 36rem;
   min-height: 2.6rem;
+
   font-size: 1.6rem;
   line-height: 2.6rem;
+
+  white-space: nowrap;
 }
 
 a {
   display: inline-block;
   position: relative;
-
-  margin: 0.2rem 1.2rem 0.2rem 0.4rem;
+  margin: 0.2rem 0.6rem;
 
   padding: 0.2rem;
+  max-width: 36rem;
 
   text-decoration: none;
+  white-space: nowrap;
 
   &::after {
     position: absolute;
@@ -122,7 +114,12 @@ a {
 }
 
 p {
+  display: block;
+  margin: 1.4rem 0;
+
+  max-width: 36rem;
   min-height: 2.4rem;
+
   font-size: 1.4rem;
   line-height: 2.4rem;
 
@@ -136,42 +133,62 @@ p {
 }
 
 hr {
+  display: block;
+  margin: 2rem 0;
+
   border: none;
   border-top: 0.1rem solid;
+
+  max-width: 36rem;
+}
+
+span {
+  white-space: nowrap;
 }
 
 code {
   display: block;
-  border-radius: 0.4rem;
+  box-sizing: border-box;
+  margin: 1.4rem 0;
 
+  border-radius: 0.4rem;
   padding: 0.6rem 0.8rem;
+
+  max-width: 36rem;
   min-height: 1.8rem;
 
   overflow: auto;
 
   font-size: 1rem;
   line-height: 1.8rem;
-
   white-space: nowrap;
+}
+
+form {
+  display: block;
+  margin: 1.2rem 0;
 }
 
 small {
   display: block;
-
+  max-width: 36rem;
   min-height: 2.2rem;
+
   font-size: 1.2rem;
   line-height: 2.2rem;
 }
 
 label {
-  margin-right: 0.6rem;
+  display: inline-block;
+  margin: 0.8rem 0.4rem;
 
-  min-height: 2.2rem;
   font-size: 1.4rem;
-  line-height: 2.2rem;
 }
 
 input {
+  display: inline-block;
+  margin: 0.8rem 0.4rem;
+
   border: 0.2rem solid;
   border-radius: 0.4rem;
 
