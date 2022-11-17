@@ -1,3 +1,16 @@
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.4rem;
+}
+
 body {
   padding: 10vh 10vw;
 

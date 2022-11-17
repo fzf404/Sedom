@@ -1,3 +1,7 @@
+::-webkit-scrollbar-thumb {
+  background-color: $neutral;
+}
+
 body {
   background-color: $white;
 }
@@ -13,7 +17,7 @@ h6 {
 
 a,
 p,
-code,
+input,
 label,
 small {
   color: $dark;
@@ -25,11 +29,11 @@ hr {
 
 code {
   background-color: $light;
+  color: $gray;
 }
 
 input {
   border-color: $light;
-  color: $dark;
   background-color: $light;
 
   &:focus {
