@@ -1,11 +1,10 @@
 {
   "name": "web-themes",
-  "version": "0.3.9",
-  "main": "index.js",
-  "author": "fzf404",
+  "version": "0.3.10",
   "description": "Simple web themes",
   "repository": {
     "type": "git",
     "url": "https://github.com/fzf404/Sedom"
-  }
+  },
+  "author": "fzf404"
 }
