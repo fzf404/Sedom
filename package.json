@@ -2,20 +2,23 @@
   "name": "sedom",
   "version": "0.2.5",
   "description": "A minimalist css library",
-  "main": "js/index.js",
-  "author": "fzf404",
-  "homepage": "https://sedom.fzf404.art/",
-  "scripts": {
-    "dev": "rollup --config rollup.config.dev.js --watch",
-    "build": "rollup --config rollup.config.js",
-    "release": "rollup --config rollup.config.js && pnpm publish"
-  },
   "keywords": [
-    "css"
+    "ui",
+    "scss",
+    "framework"
   ],
+  "homepage": "https://sedom.fzf404.art/",
   "repository": {
     "type": "git",
     "url": "https://github.com/fzf404/Sedom"
+  },
+  "license": "MIT",
+  "author": "fzf404",
+  "main": "js/index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "dev": "rollup --config rollup.config.dev.js --watch",
+    "release": "rollup --config rollup.config.js && pnpm publish"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.2",
@@ -26,6 +29,5 @@
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-sass": "^1.12.16",
     "rollup-plugin-serve": "^2.0.1"
-  },
-  "license": "MIT"
+  }
 }
