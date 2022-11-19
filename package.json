@@ -1,15 +1,11 @@
 {
   "name": "web-themes",
-  "version": "0.3.8",
-  "description": "fzf404's web themes",
+  "version": "0.3.9",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Here is fzf's web themes.\" && exit 1"
-  },
+  "author": "fzf404",
+  "description": "Simple web themes",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fzf404/web-themes"
-  },
-  "author": "fzf404",
-  "license": "MIT"
+    "url": "https://github.com/fzf404/Sedom"
+  }
 }

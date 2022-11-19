@@ -1,6 +1,6 @@
-@import url("color.css");
-@import url("theme.css");
-@import url("style.css");
+@import url('color.css');
+@import url('theme.css');
+@import url('style.css');
 
 body {
   /* 内边距 */
@@ -57,7 +57,7 @@ a {
 /* 伪元素 */
 a:after {
   /* 内容为空 */
-  content: "";
+  content: '';
   /* 绝对定位 */
   position: absolute;
   /* z轴降低 */

@@ -11,7 +11,7 @@
   color: var(--common-light);
 }
 
-.dark input{
+.dark input {
   border-color: var(--common-dark-light);
 }
 
