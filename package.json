@@ -1,10 +1,11 @@
 {
   "name": "sedom",
-  "version": "0.2.5",
-  "description": "A minimalist css library",
+  "version": "0.3.0",
+  "description": "Minimal style library",
   "keywords": [
     "ui",
     "scss",
+    "style",
     "framework"
   ],
   "homepage": "https://sedom.fzf404.art/",
@@ -29,5 +30,9 @@
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-sass": "^1.12.16",
     "rollup-plugin-serve": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
   }
 }
