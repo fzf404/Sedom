@@ -80,7 +80,8 @@ h6 {
   white-space: nowrap;
 }
 
-p {
+p,
+form {
   display: block;
   margin: 0.8rem 0;
 
@@ -104,8 +105,6 @@ span {
 
   white-space: nowrap;
 }
-
-
 
 code {
   display: block;
@@ -136,11 +135,6 @@ small {
   line-height: 2.2rem;
 }
 
-form {
-  display: block;
-  margin: 0.8rem 0;
-}
-
 label {
   display: inline-block;
   margin: 0.6rem 0.4rem;
@@ -164,6 +158,7 @@ input {
     outline: none;
   }
 }
+
 
 a {
   display: inline-block;
