@@ -1,6 +1,6 @@
 $white: #f1f3f5;
 $light: #dee2e6;
-$neutral: #adb5bd;
+$neutral: #b1bac2;
 $gray: #868e96;
 $dark: #495057;
 $black: #212529;
@@ -43,15 +43,19 @@ $colors: (
 
 // 文字颜色
 @each $name, $color in $colors {
-  .text-#{'' + $name} {
+  .p-#{'' + $name} {
     color: $color !important;
   }
 }
 
 // 背景颜色
 @each $name, $color in $colors {
-  .bg-#{'' + $name} {
+  .b-#{'' + $name} {
+    opacity: 50;
     background-color: $color;
+    &:hover {
+      opacity: 100;
+    }
   }
 }
 

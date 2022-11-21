@@ -1,3 +1,9 @@
+.theme {
+  position: fixed;
+  right: 4vw;
+  bottom: 2vh;
+}
+
 .left {
   float: left;
 }
@@ -6,10 +12,10 @@
   float: right;
 }
 
+
 .protect {
   cursor: default;
   user-select: none;
-  -webkit-user-select: none;
 }
 
 .space {

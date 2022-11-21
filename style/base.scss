@@ -1,10 +1,6 @@
-* {
-  font-weight: 100;
-}
-
 h1 {
   display: block;
-  margin: 2rem 0;
+  margin: 1.4rem 0;
 
   max-width: 36rem;
   min-height: 5rem;
@@ -17,7 +13,7 @@ h1 {
 
 h2 {
   display: block;
-  margin: 1.8rem 0;
+  margin: 1.4rem 0;
 
   max-width: 36rem;
   min-height: 4.2rem;
@@ -30,7 +26,7 @@ h2 {
 
 h3 {
   display: block;
-  margin: 1.6rem 0;
+  margin: 1.2rem 0;
 
   max-width: 36rem;
   min-height: 3.6rem;
@@ -43,7 +39,7 @@ h3 {
 
 h4 {
   display: block;
-  margin: 1.4rem 0;
+  margin: 1.2rem 0;
 
   max-width: 36rem;
   min-height: 3.2rem;
@@ -56,7 +52,7 @@ h4 {
 
 h5 {
   display: block;
-  margin: 1.2rem 0;
+  margin: 1rem 0;
 
   max-width: 36rem;
   min-height: 2.8rem;
@@ -72,10 +68,10 @@ h6 {
   margin: 1rem 0;
 
   max-width: 36rem;
-  min-height: 2.6rem;
+  min-height: 2.4rem;
 
-  font-size: 1.6rem;
-  line-height: 2.6rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
 
   white-space: nowrap;
 }
@@ -86,10 +82,10 @@ form {
   margin: 0.8rem 0;
 
   max-width: 36rem;
-  min-height: 2.4rem;
+  min-height: 2.2rem;
 
-  font-size: 1.4rem;
-  line-height: 2.4rem;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
 
   small {
     display: inline-block;
@@ -122,36 +118,41 @@ code {
   font-size: 1rem;
   line-height: 1.8rem;
   white-space: nowrap;
+
+  span {
+    display: block;
+  }
 }
 
 small {
-  display: block;
+  display: inline-block;
   margin: 0.6rem 0;
 
   max-width: 36rem;
-  min-height: 2.2rem;
 
-  font-size: 1.2rem;
-  line-height: 2.2rem;
+  min-height: 2rem;
+  font-size: 1rem;
+
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 label {
   display: inline-block;
-  margin: 0.6rem 0.4rem;
+  margin: 0.6rem 0.2rem;
 
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 input {
   display: inline-block;
-  margin: 0.6rem 0.4rem;
 
   border: 0.2rem solid;
   border-radius: 0.4rem;
 
-  padding: 0.4rem 0.6rem;
+  padding: 0.4rem;
 
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: monospace, sans-serif;
 
   &:focus {
@@ -159,6 +160,21 @@ input {
   }
 }
 
+button {
+  display: inline-block;
+  margin: 0.6rem 0.4rem;
+
+  border: none;
+  border-radius: 0.4rem;
+
+  padding: 0.4rem 0.6rem;
+
+  font-size: 1rem;
+
+  &:focus {
+    outline: none;
+  }
+}
 
 a {
   display: inline-block;
