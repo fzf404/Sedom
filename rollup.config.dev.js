@@ -5,7 +5,7 @@ import sass from 'rollup-plugin-sass'
 import serve from 'rollup-plugin-serve'
 
 export default {
-  input: 'js/index.js',
+  input: 'script/sedom.js',
   output: [
     {
       file: 'dist/sedom.js',
