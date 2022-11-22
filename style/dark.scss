@@ -22,7 +22,8 @@ h6 {
 
 a,
 p,
-input {
+input,
+button {
   color: $light;
 }
 
@@ -51,4 +52,14 @@ input {
 
 .light {
   display: none;
+}
+
+.theme {
+  background: $white;
+}
+
+.b-middle,
+.b-light,
+.b-white {
+  color: $black;
 }

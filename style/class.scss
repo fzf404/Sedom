@@ -1,7 +1,18 @@
 .theme {
+  display: flex;
   position: fixed;
+
   right: 4vw;
   bottom: 2vh;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: 1.4rem;
 }
 
 .left {
@@ -11,7 +22,6 @@
 .right {
   float: right;
 }
-
 
 .protect {
   cursor: default;
@@ -45,4 +55,7 @@
       animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
     }
   }
+}
+
+.wave {
 }

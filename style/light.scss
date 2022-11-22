@@ -22,7 +22,8 @@ h6 {
 
 a,
 p,
-input {
+input,
+button {
   color: $dark;
 }
 
@@ -51,4 +52,8 @@ input {
 
 .dark {
   display: none;
+}
+
+.theme {
+  background: $middle;
 }

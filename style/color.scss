@@ -51,11 +51,7 @@ $colors: (
 // 背景颜色
 @each $name, $color in $colors {
   .b-#{'' + $name} {
-    opacity: 50;
     background-color: $color;
-    &:hover {
-      opacity: 100;
-    }
   }
 }
 
