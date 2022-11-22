@@ -1,6 +1,6 @@
 $white: #f1f3f5;
 $light: #dee2e6;
-$neutral: #b1bac2;
+$middle: #b1bac2;
 $gray: #868e96;
 $dark: #495057;
 $black: #212529;
@@ -22,7 +22,7 @@ $orange: #f76707;
 $colors: (
   white: $white,
   light: $light,
-  neutral: $neutral,
+  middle: $middle,
   gray: $gray,
   dark: $dark,
   black: $black,
@@ -43,7 +43,7 @@ $colors: (
 
 // 文字颜色
 @each $name, $color in $colors {
-  .p-#{'' + $name} {
+  .t-#{'' + $name} {
     color: $color !important;
   }
 }

@@ -4,7 +4,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: $neutral;
+  background-color: $middle;
 }
 
 body {
@@ -45,7 +45,7 @@ input {
   background-color: $light;
 
   &:focus {
-    border-color: $neutral;
+    border-color: $middle;
   }
 }
 

@@ -3,7 +3,7 @@ import resolve from '@rollup/plugin-node-resolve'
 import sass from 'rollup-plugin-sass'
 
 export default {
-  input: 'script/sedom.js',
+  input: './build.js',
   output: [
     {
       file: 'dist/sedom.js',

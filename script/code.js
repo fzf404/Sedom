@@ -1,26 +1,29 @@
-// 初始化代码
-export const initCode = () => {
-  document.querySelectorAll('code span').forEach((el) => {
-    el.innerText = el.innerHTML
-  })
-}
-
-// 初始化 DOM
-const initDom = () => {
-  initTheme()
-  initColor()
-  initCode()
-}
-
-// 初始化 Sedom
-const initSedom = () => {
-  if (window.Sedom) {
-    return
-  } else {
-    window.Sedom = { getTheme, toggleTheme }
-    document.addEventListener('DOMContentLoaded', initDom)
+const getSpaceLength = (str) => {
+  let space = 0
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === ' ') {
+      space++
+    } else {
+      return space
+    }
   }
 }
 
-// 导出函数
-export default { initSedom, getTheme, toggleTheme }
+// 初始化代码
+export const initCode = () => {
+  document.querySelectorAll('code').forEach((element) => {
+    // 获取代码内容
+    const code = element.innerHTML.replace(/^\n/, '').split('\n')
+    // 获取代码缩进
+    const space = getSpaceLength(code[0])
+    // 清空代码内容
+    element.innerHTML = ''
+    // 重新添加代码内容
+    code.map((item, index) => {
+      const span = document.createElement('span')
+      console.log('item', item.slice(space))
+      span.innerText = item.slice(space)
+      element.appendChild(span)
+    })
+  })
+}

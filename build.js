@@ -1,6 +1,8 @@
 import { getTheme, toggleTheme } from './script/theme'
 import { initDOM } from './script/sedom'
 
+import './style/sedom.scss'
+
 // 防止重复初始化
 if (!window.Sedom) {
   // 全局注册

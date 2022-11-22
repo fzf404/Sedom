@@ -86,20 +86,6 @@ form {
 
   font-size: 1.2rem;
   line-height: 2.2rem;
-
-  small {
-    display: inline-block;
-
-    min-height: 2.4rem;
-    font-size: 1.2rem;
-    line-height: 2.4rem;
-  }
-}
-
-span {
-  display: inline-block;
-
-  white-space: nowrap;
 }
 
 code {
@@ -125,13 +111,11 @@ code {
 }
 
 small {
-  display: inline-block;
+  display: block;
   margin: 0.6rem 0;
 
   max-width: 36rem;
-
   min-height: 2rem;
-  font-size: 1rem;
 
   font-size: 1rem;
   line-height: 2rem;
@@ -162,17 +146,19 @@ input {
 
 button {
   display: inline-block;
+  opacity: 0.4;
   margin: 0.6rem 0.4rem;
+  outline: none;
 
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 0.6rem;
 
   padding: 0.4rem 0.6rem;
 
-  font-size: 1rem;
+  font-size: 1.2rem;
 
-  &:focus {
-    outline: none;
+  &:hover {
+    opacity: 1;
   }
 }
 
