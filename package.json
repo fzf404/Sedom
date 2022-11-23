@@ -1,6 +1,6 @@
 {
   "name": "sedom",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Minimal style library",
   "keywords": [
     "ui",
@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "author": "fzf404",
-  "main": "js/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "rollup --config rollup.config.js",
     "dev": "rollup --config rollup.config.dev.js --watch",
