@@ -1,18 +1,16 @@
 .theme {
-  display: flex;
   position: fixed;
 
-  right: 4vw;
-  bottom: 2vh;
-
-  justify-content: center;
-  align-items: center;
+  right: 5vw;
+  bottom: 5vh;
+  margin: 0;
 
   border-radius: 50%;
+  padding: 0;
 
-  width: 3.2rem;
-  height: 3.2rem;
-  font-size: 1.4rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  font-size: 1.8rem;
 }
 
 .left {
@@ -42,9 +40,9 @@
 
 .jump {
   display: inline-block;
-  animation: bounce 1s infinite;
+  animation: jump 1s infinite;
 
-  @keyframes bounce {
+  @keyframes jump {
     0%,
     100% {
       transform: translateY(-25%);
@@ -58,4 +56,18 @@
 }
 
 .wave {
+  display: inline-block;
+  animation: wave 1s infinite;
+
+  @keyframes wave {
+    0%,
+    100% {
+      transform: rotate(-10deg);
+      // animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    50% {
+      transform: rotate(20deg);
+      // animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
 }
