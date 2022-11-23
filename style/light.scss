@@ -22,13 +22,13 @@ h6 {
 
 a,
 p,
-input,
 button {
   color: $dark;
 }
 
 code,
 label,
+input,
 small {
   color: $gray;
 }
@@ -39,6 +39,10 @@ hr {
 
 code {
   background-color: $light;
+}
+
+button{
+  color: $light;
 }
 
 input {
@@ -56,4 +60,12 @@ input {
 
 .theme {
   background: $middle;
+}
+
+.b-middle {
+  color: $white;
+}
+
+.b-light ,.b-white{
+  color: $gray;
 }

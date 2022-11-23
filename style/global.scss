@@ -21,3 +21,8 @@ body {
 
   font-family: system-ui, sans-serif;
 }
+
+code::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}

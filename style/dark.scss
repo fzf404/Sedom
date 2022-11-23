@@ -22,13 +22,13 @@ h6 {
 
 a,
 p,
-input,
 button {
   color: $light;
 }
 
 code,
 label,
+input,
 small {
   color: $middle;
 }
@@ -58,7 +58,10 @@ input {
   background: $white;
 }
 
-.b-middle,
+.b-middle {
+  color: $dark;
+}
+
 .b-light,
 .b-white {
   color: $black;
