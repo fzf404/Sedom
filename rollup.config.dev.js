@@ -1,8 +1,9 @@
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
 import livereload from 'rollup-plugin-livereload'
-import sass from 'rollup-plugin-sass'
 import serve from 'rollup-plugin-serve'
+import json from '@rollup/plugin-json'
+import sass from 'rollup-plugin-sass'
 
 export default {
   input: './build.js',
@@ -13,6 +14,7 @@ export default {
     },
   ],
   plugins: [
+    json(),
     resolve(),
     commonjs(),
     sass({
