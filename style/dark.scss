@@ -16,13 +16,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+button {
   color: $white;
 }
 
 a,
-p,
-button {
+p {
   color: $light;
 }
 
@@ -58,11 +58,9 @@ input {
   background: $white;
 }
 
-.b-middle {
-  color: $dark;
-}
 
 .b-light,
-.b-white {
+.b-white,
+.b-middle {
   color: $black;
 }

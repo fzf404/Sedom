@@ -21,8 +21,7 @@ h6 {
 }
 
 a,
-p,
-button {
+p {
   color: $dark;
 }
 
@@ -33,16 +32,12 @@ small {
   color: $gray;
 }
 
-hr {
-  border-top-color: $light;
-}
-
 code {
   background-color: $light;
 }
 
-button{
-  color: $light;
+button {
+  color: $white;
 }
 
 input {
@@ -52,6 +47,10 @@ input {
   &:focus {
     border-color: $middle;
   }
+}
+
+hr {
+  border-top-color: $light;
 }
 
 .dark {
@@ -66,6 +65,7 @@ input {
   color: $white;
 }
 
-.b-light ,.b-white{
+.b-light,
+.b-white {
   color: $gray;
 }
