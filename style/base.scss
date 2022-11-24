@@ -177,7 +177,7 @@ a {
     opacity: 0.4;
 
     z-index: -1;
-    transition: top 300ms cubic-bezier(0, 0.8, 0.13, 1);
+    transition: top 200ms ease-out;
 
     border-radius: 0.6rem;
     background-color: $middle;
