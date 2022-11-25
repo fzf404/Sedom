@@ -99,13 +99,13 @@ code {
 
   overflow: auto;
 
-  font-size: 1rem;
-  line-height: 1.6rem;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
   white-space: pre;
 
   span {
     display: block;
-    min-height: 1.6rem;
+    min-height: 1.4rem;
   }
 }
 
@@ -140,6 +140,7 @@ button {
   display: inline-block;
 
   opacity: 0.6;
+  cursor: pointer;
 
   margin: 0.4rem;
 
@@ -150,19 +151,33 @@ button {
   background-color: $gray;
 
   padding: 0.4rem 0.6rem;
+  min-height: 1.8rem;
 
   font-size: 1.2rem;
+  line-height: 1.8rem;
 
   &:hover {
-    opacity: 0.8;
+    opacity: 1;
+  }
+
+  &:active {
+    transition: none;
+    opacity: 0.4;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
   }
 }
 
 a {
   display: inline-block;
   position: relative;
-  margin: 0.2rem 0.6rem;
 
+  cursor: pointer;
+
+  margin: 0.2rem 0.6rem;
   padding: 0.2rem;
   max-width: 36rem;
 
@@ -178,15 +193,19 @@ a {
     opacity: 0.4;
 
     z-index: -1;
-    transition: top 200ms ease-out;
-
+    
     border-radius: 0.6rem;
     background-color: $gray;
     content: '';
   }
-
+  
   &:hover::after {
     top: 0%;
+  }
+
+  &:active::after {
+    transition: none;
+    opacity: 0.2;
   }
 }
 

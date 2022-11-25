@@ -11,12 +11,14 @@
   border-radius: 0.4rem;
 }
 
-* {
-  transition: all 0.2s ease-in-out;
-  font-weight: 200;
-}
-
 code::-webkit-scrollbar {
   width: 0.5rem;
   height: 0.5rem;
+}
+
+*,
+*::before,
+*::after {
+  transition: all 200ms ease-in-out;
+  font-weight: 200;
 }
