@@ -48,16 +48,26 @@ $colors: (
   }
 }
 
-// 背景颜色
+// 链接颜色
+@each $name, $color in $colors {
+  .a-#{'' + $name}::after {
+    background-color: $color;
+  }
+}
+
+// 按钮颜色
 @each $name, $color in $colors {
   .b-#{'' + $name} {
     background-color: $color;
   }
 }
 
-// 标签颜色
-@each $name, $color in $colors {
-  .a-#{'' + $name}::after {
-    background-color: $color;
+// 彩虹颜色
+.a-rainbow {
+  &::after {
+    background-image: linear-gradient(-45deg, $purple, $blue, $green, $yellow, $red);
+  }
+  &.reverse::after {
+    background-image: linear-gradient(45deg, $red, $yellow, $green, $blue, $purple);
   }
 }
