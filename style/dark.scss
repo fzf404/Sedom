@@ -1,10 +1,15 @@
 ::selection {
+  -webkit-text-fill-color: $white;
   background: $middle;
   color: $white;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: $gray;
+}
+
+.theme {
+  background: $white;
 }
 
 body {
@@ -16,8 +21,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-button {
+h6 {
   color: $white;
 }
 
@@ -26,6 +30,7 @@ p {
   color: $light;
 }
 
+pre,
 code,
 label,
 input,
@@ -50,12 +55,12 @@ input {
   }
 }
 
-.theme {
-  background: $white;
-}
+button {
+  color: $white;
 
-.b-light,
-.b-white,
-.b-middle {
-  color: $black;
+  &.middle,
+  &.white,
+  &.light {
+    color: $black;
+  }
 }

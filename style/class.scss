@@ -1,3 +1,8 @@
+.protect {
+  cursor: default;
+  user-select: none;
+}
+
 .theme {
   position: fixed;
 
@@ -23,11 +28,6 @@
 
 .right {
   float: right;
-}
-
-.protect {
-  cursor: default;
-  user-select: none;
 }
 
 .space {

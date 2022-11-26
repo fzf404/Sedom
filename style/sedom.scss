@@ -4,10 +4,15 @@
 @import 'base';
 @import 'class';
 
-.dark {
+// 默认主题
+@import 'dark';
+
+// 深色主题
+[data-theme='dark'] {
   @import 'dark';
 }
 
-.light {
+// 浅色主题
+[data-theme='light'] {
   @import 'light';
 }
