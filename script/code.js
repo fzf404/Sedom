@@ -21,7 +21,7 @@ export const initCode = () => {
     element.innerHTML = ''
     // 重新添加代码内容
     code.map((item, index) => {
-      const span = document.createElement('span')
+      const span = document.createElement('pre')
       span.innerText = item.slice(space)
       element.appendChild(span)
     })
