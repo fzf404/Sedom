@@ -7,10 +7,10 @@ export const getTheme = () => {
 export const toggleTheme = () => {
   switch (getTheme()) {
     case 'dark':
-      document.documentElement.setAttribute('class', 'light')
+      document.documentElement.setAttribute('data-theme', 'light')
       return localStorage.setItem('theme', 'light')
     case 'light':
-      document.documentElement.setAttribute('class', 'dark')
+      document.documentElement.setAttribute('data-theme', 'dark')
       return localStorage.setItem('theme', 'dark')
   }
 }
@@ -18,7 +18,7 @@ export const toggleTheme = () => {
 // 初始化主题
 export const initTheme = () => {
   // 设置主题
-  document.documentElement.setAttribute('class', getTheme())
+  document.documentElement.setAttribute('data-theme', getTheme())
   // 切换主题
   document.querySelectorAll('.theme').forEach((el) => {
     el.addEventListener('click', toggleTheme)
