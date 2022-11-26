@@ -44,9 +44,7 @@ $colors: (
 // 颜色样式
 @each $name, $color in $colors {
   // 文字颜色
-  p.#{'' + $name},
-  span.#{'' + $name},
-  small.#{'' + $name} {
+  span.#{'' + $name} {
     color: $color;
   }
 
@@ -62,9 +60,7 @@ $colors: (
 }
 
 // 彩虹文字
-p.rainbow,
-span.rainbow,
-small.rainbow {
+span.rainbow {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, $red, $yellow, $green, $blue, $purple);
   background-size: 100% 100%;

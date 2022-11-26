@@ -119,6 +119,7 @@ label {
   display: inline-block;
   margin: 0.6rem 0.4rem;
 
+  min-width: 2.4rem;
   font-size: 1.2rem;
 }
 
@@ -184,7 +185,7 @@ button {
   opacity: 0.6;
   cursor: pointer;
 
-  margin: 0.4rem;
+  margin: 0.4rem 0.2rem;
 
   outline: none;
   border: none;
@@ -192,11 +193,10 @@ button {
 
   background-color: $gray;
 
-  padding: 0.4rem 0.6rem;
-  max-width: 36rem;
+  padding: 0.4rem 0.8rem;
 
   font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 1.8rem;
 
   &:hover {
     opacity: 1;
