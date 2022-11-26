@@ -193,11 +193,10 @@ button {
   background-color: $gray;
 
   padding: 0.4rem 0.6rem;
-  min-width: 2.6rem;
-  min-height: 2.6rem;
+  max-width: 36rem;
 
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
 
   &:hover {
     opacity: 1;
