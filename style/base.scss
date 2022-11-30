@@ -64,8 +64,7 @@ h6 {
   line-height: 2.4rem;
 }
 
-p,
-form {
+p {
   display: block;
   margin: 0.8rem 0;
 
@@ -74,6 +73,14 @@ form {
 
   font-size: 1.2rem;
   line-height: 2.2rem;
+}
+
+form {
+  display: block;
+  margin: 0.8rem 0;
+
+  max-width: 36rem;
+  line-height: 2.8rem;
 }
 
 small {
@@ -117,7 +124,8 @@ span {
 
 label {
   display: inline-block;
-  margin: 0.6rem 0.4rem;
+
+  margin: 0.4rem;
 
   min-width: 2.4rem;
   font-size: 1.2rem;
@@ -126,10 +134,12 @@ label {
 input {
   display: inline-block;
 
+  margin: 0.4rem;
+
   border: 0.2rem solid;
   border-radius: 0.4rem;
 
-  padding: 0.4rem;
+  padding: 0.5rem;
 
   font-size: 1rem;
   font-family: monospace, sans-serif;
