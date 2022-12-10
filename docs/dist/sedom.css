@@ -1,0 +1,691 @@
+body {
+  padding: 10vh 10vw;
+  font-family: system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.4rem;
+}
+
+code::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+*,
+*::before,
+*::after {
+  transition: all 200ms ease-in-out;
+  font-weight: 200;
+}
+
+span.white {
+  color: #f1f3f5;
+}
+
+a.white::after {
+  background-color: #f1f3f5;
+}
+
+button.white {
+  background-color: #f1f3f5;
+}
+
+span.light {
+  color: #dee2e6;
+}
+
+a.light::after {
+  background-color: #dee2e6;
+}
+
+button.light {
+  background-color: #dee2e6;
+}
+
+span.middle {
+  color: #b1bac0;
+}
+
+a.middle::after {
+  background-color: #b1bac0;
+}
+
+button.middle {
+  background-color: #b1bac0;
+}
+
+span.gray {
+  color: #868e96;
+}
+
+a.gray::after {
+  background-color: #868e96;
+}
+
+button.gray {
+  background-color: #868e96;
+}
+
+span.dark {
+  color: #495057;
+}
+
+a.dark::after {
+  background-color: #495057;
+}
+
+button.dark {
+  background-color: #495057;
+}
+
+span.black {
+  color: #212529;
+}
+
+a.black::after {
+  background-color: #212529;
+}
+
+button.black {
+  background-color: #212529;
+}
+
+span.red {
+  color: #f03e3e;
+}
+
+a.red::after {
+  background-color: #f03e3e;
+}
+
+button.red {
+  background-color: #f03e3e;
+}
+
+span.orange {
+  color: #f76707;
+}
+
+a.orange::after {
+  background-color: #f76707;
+}
+
+button.orange {
+  background-color: #f76707;
+}
+
+span.yellow {
+  color: #f59f00;
+}
+
+a.yellow::after {
+  background-color: #f59f00;
+}
+
+button.yellow {
+  background-color: #f59f00;
+}
+
+span.lime {
+  color: #74b816;
+}
+
+a.lime::after {
+  background-color: #74b816;
+}
+
+button.lime {
+  background-color: #74b816;
+}
+
+span.green {
+  color: #37b24d;
+}
+
+a.green::after {
+  background-color: #37b24d;
+}
+
+button.green {
+  background-color: #37b24d;
+}
+
+span.teal {
+  color: #0ca678;
+}
+
+a.teal::after {
+  background-color: #0ca678;
+}
+
+button.teal {
+  background-color: #0ca678;
+}
+
+span.cyan {
+  color: #1098ad;
+}
+
+a.cyan::after {
+  background-color: #1098ad;
+}
+
+button.cyan {
+  background-color: #1098ad;
+}
+
+span.blue {
+  color: #1c7cd6;
+}
+
+a.blue::after {
+  background-color: #1c7cd6;
+}
+
+button.blue {
+  background-color: #1c7cd6;
+}
+
+span.indigo {
+  color: #4263eb;
+}
+
+a.indigo::after {
+  background-color: #4263eb;
+}
+
+button.indigo {
+  background-color: #4263eb;
+}
+
+span.violet {
+  color: #7048e8;
+}
+
+a.violet::after {
+  background-color: #7048e8;
+}
+
+button.violet {
+  background-color: #7048e8;
+}
+
+span.purple {
+  color: #ae3ec9;
+}
+
+a.purple::after {
+  background-color: #ae3ec9;
+}
+
+button.purple {
+  background-color: #ae3ec9;
+}
+
+span.pink {
+  color: #d6336c;
+}
+
+a.pink::after {
+  background-color: #d6336c;
+}
+
+button.pink {
+  background-color: #d6336c;
+}
+
+span.rainbow {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+span.rainbow.reverse {
+  background-image: linear-gradient(to left, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
+}
+
+a.rainbow::after {
+  background-image: linear-gradient(135deg, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
+}
+a.rainbow.reverse::after {
+  background-image: linear-gradient(315deg, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
+}
+
+button.rainbow {
+  background-image: linear-gradient(135deg, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
+}
+button.rainbow.reverse {
+  background-image: linear-gradient(315deg, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
+}
+
+h1 {
+  display: block;
+  margin: 1.4rem 0;
+  max-width: 36rem;
+  min-height: 5rem;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+h2 {
+  display: block;
+  margin: 1.4rem 0;
+  max-width: 36rem;
+  min-height: 4.2rem;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+}
+
+h3 {
+  display: block;
+  margin: 1.2rem 0;
+  max-width: 36rem;
+  min-height: 3.6rem;
+  font-size: 2.6rem;
+  line-height: 3.6rem;
+}
+
+h4 {
+  display: block;
+  margin: 1.2rem 0;
+  max-width: 36rem;
+  min-height: 3.2rem;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+}
+
+h5 {
+  display: block;
+  margin: 1rem 0;
+  max-width: 36rem;
+  min-height: 2.8rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+h6 {
+  display: block;
+  margin: 1rem 0;
+  max-width: 36rem;
+  min-height: 2.4rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+p {
+  display: block;
+  margin: 0.8rem 0;
+  max-width: 36rem;
+  min-height: 2.2rem;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+form {
+  display: block;
+  margin: 0.8rem 0;
+  max-width: 36rem;
+  line-height: 2.8rem;
+}
+
+small {
+  display: block;
+  margin: 0.6rem 0;
+  max-width: 36rem;
+  min-height: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+code {
+  display: block;
+  box-sizing: border-box;
+  margin: 0.8rem 0;
+  border-radius: 0.4rem;
+  padding: 0.6rem 0.8rem;
+  max-width: 36rem;
+  overflow: auto;
+  white-space: pre;
+}
+code pre {
+  display: block;
+  margin: 0;
+  min-height: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+span {
+  display: inline-block;
+}
+
+label {
+  display: inline-block;
+  margin: 0.4rem;
+  min-width: 2.4rem;
+  font-size: 1.2rem;
+}
+
+input {
+  display: inline-block;
+  margin: 0.4rem;
+  border: 0.2rem solid;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: monospace, sans-serif;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin: 0.2rem 0.6rem;
+  padding: 0.2rem;
+  min-width: 0.6rem;
+  max-width: 36rem;
+  text-decoration: none;
+}
+a::after {
+  position: absolute;
+  top: 60%;
+  right: -0.4rem;
+  bottom: 0;
+  left: -0.4rem;
+  opacity: 0.4;
+  z-index: -1;
+  border-radius: 0.6rem;
+  background-color: #868e96;
+  content: "";
+}
+a:hover::after {
+  top: 0%;
+}
+a:active::after {
+  opacity: 0.2;
+  transition: none;
+}
+
+button {
+  display: inline-block;
+  opacity: 0.6;
+  cursor: pointer;
+  margin: 0.4rem 0.2rem;
+  outline: none;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #868e96;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+button:hover {
+  opacity: 1;
+}
+button:active {
+  opacity: 0.4;
+  transition: none;
+}
+button:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+hr {
+  display: block;
+  margin: 1.6rem 0;
+  border: none;
+  border-top: 0.1rem solid;
+  max-width: 36rem;
+}
+
+.protect {
+  cursor: default;
+  user-select: none;
+}
+
+.theme {
+  position: fixed;
+  right: 4vw;
+  bottom: 4vw;
+  margin: 0;
+  border-radius: 50%;
+  padding: 0;
+  width: 3.4rem;
+  height: 3.4rem;
+  font-size: 1.6rem;
+}
+
+.left {
+  float: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.space > * {
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+.space > a {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.jump {
+  display: inline-block;
+  animation: jump 1s infinite;
+}
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(-20%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(10%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.wave {
+  display: inline-block;
+  animation: wave 1s infinite;
+}
+@keyframes wave {
+  0%, 100% {
+    transform: rotate(-10deg);
+    animation-timing-function: ease-in-out;
+  }
+  50% {
+    transform: rotate(20deg);
+    animation-timing-function: ease-in-out;
+  }
+}
+
+::selection {
+  -webkit-text-fill-color: #f1f3f5;
+  background: #b1bac0;
+  color: #f1f3f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #868e96;
+}
+
+.theme {
+  background: #f1f3f5;
+}
+
+body {
+  background-color: #212529;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f1f3f5;
+}
+
+a,
+p {
+  color: #dee2e6;
+}
+
+pre,
+code,
+label,
+input,
+small {
+  color: #b1bac0;
+}
+
+hr {
+  border-color: #868e96;
+}
+
+code {
+  background-color: #495057;
+}
+
+input {
+  border-color: #495057;
+  background-color: #495057;
+}
+input:focus {
+  border-color: #868e96;
+}
+
+button {
+  color: #f1f3f5;
+}
+button.middle, button.white, button.light {
+  color: #212529;
+}
+
+[data-theme=dark] ::selection {
+  -webkit-text-fill-color: #f1f3f5;
+  background: #b1bac0;
+  color: #f1f3f5;
+}
+[data-theme=dark] ::-webkit-scrollbar-thumb {
+  background-color: #868e96;
+}
+[data-theme=dark] .theme {
+  background: #f1f3f5;
+}
+[data-theme=dark] body {
+  background-color: #212529;
+}
+[data-theme=dark] h1,
+[data-theme=dark] h2,
+[data-theme=dark] h3,
+[data-theme=dark] h4,
+[data-theme=dark] h5,
+[data-theme=dark] h6 {
+  color: #f1f3f5;
+}
+[data-theme=dark] a,
+[data-theme=dark] p {
+  color: #dee2e6;
+}
+[data-theme=dark] pre,
+[data-theme=dark] code,
+[data-theme=dark] label,
+[data-theme=dark] input,
+[data-theme=dark] small {
+  color: #b1bac0;
+}
+[data-theme=dark] hr {
+  border-color: #868e96;
+}
+[data-theme=dark] code {
+  background-color: #495057;
+}
+[data-theme=dark] input {
+  border-color: #495057;
+  background-color: #495057;
+}
+[data-theme=dark] input:focus {
+  border-color: #868e96;
+}
+[data-theme=dark] button {
+  color: #f1f3f5;
+}
+[data-theme=dark] button.middle, [data-theme=dark] button.white, [data-theme=dark] button.light {
+  color: #212529;
+}
+
+[data-theme=light] ::selection {
+  -webkit-text-fill-color: #dee2e6;
+  background: #868e96;
+  color: #dee2e6;
+}
+[data-theme=light] ::-webkit-scrollbar-thumb {
+  background-color: #b1bac0;
+}
+[data-theme=light] .theme {
+  background: #b1bac0;
+}
+[data-theme=light] body {
+  background-color: #f1f3f5;
+}
+[data-theme=light] h1,
+[data-theme=light] h2,
+[data-theme=light] h3,
+[data-theme=light] h4,
+[data-theme=light] h5,
+[data-theme=light] h6 {
+  color: #212529;
+}
+[data-theme=light] a,
+[data-theme=light] p {
+  color: #495057;
+}
+[data-theme=light] pre,
+[data-theme=light] code,
+[data-theme=light] label,
+[data-theme=light] input,
+[data-theme=light] small {
+  color: #868e96;
+}
+[data-theme=light] code {
+  background-color: #dee2e6;
+}
+[data-theme=light] button {
+  color: #f1f3f5;
+}
+[data-theme=light] button.white, [data-theme=light] button.light {
+  color: #868e96;
+}
+[data-theme=light] input {
+  border-color: #dee2e6;
+  background-color: #dee2e6;
+}
+[data-theme=light] input:focus {
+  border-color: #b1bac0;
+}
+[data-theme=light] hr {
+  border-color: #dee2e6;
+}
