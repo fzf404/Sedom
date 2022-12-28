@@ -89,7 +89,7 @@
   };
 
   var name = "sedom";
-  var version = "0.5.5";
+  var version = "0.5.6";
   var description = "Minimal style library";
   var keywords = [
   	"ui",
