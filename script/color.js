@@ -20,7 +20,7 @@ export const initColor = () => {
     'violet',
     'purple',
     'pink',
-    'rainbow',
+    'rainbow'
   ]
   // 随机颜色
   document.querySelectorAll('.random').forEach((element) => {

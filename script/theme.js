@@ -24,6 +24,3 @@ export const initTheme = () => {
     el.addEventListener('click', toggleTheme)
   })
 }
-
-
-

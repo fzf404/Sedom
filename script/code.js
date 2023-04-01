@@ -1,3 +1,4 @@
+// 获取空格长度
 const getSpaceLength = (str) => {
   let space = 0
   for (let i = 0; i < str.length; i++) {
@@ -14,13 +15,16 @@ const getSpaceLength = (str) => {
 export const initCode = () => {
   document.querySelectorAll('code').forEach((element) => {
     // 获取代码内容
-    const code = element.innerHTML.replace(/^\n/, '').replace(/\n\s.$/, '').split('\n')
+    const code = element.innerHTML
+      .replace(/^\n/, '')
+      .replace(/\n\s.$/, '')
+      .split('\n')
     // 获取代码缩进
     const space = getSpaceLength(code[0])
     // 清空代码内容
     element.innerHTML = ''
     // 重新添加代码内容
-    code.map((item, index) => {
+    code.map((item) => {
       const span = document.createElement('pre')
       span.innerText = item.slice(space)
       element.appendChild(span)

@@ -1,5 +1,5 @@
-import { getTheme, toggleTheme } from './script/theme'
 import { initDOM } from './script/sedom'
+import { getTheme, toggleTheme } from './script/theme'
 
 import './style/sedom.scss'
 
