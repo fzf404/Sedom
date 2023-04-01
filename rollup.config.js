@@ -1,6 +1,6 @@
 import commonjs from '@rollup/plugin-commonjs'
-import resolve from '@rollup/plugin-node-resolve'
 import json from '@rollup/plugin-json'
+import resolve from '@rollup/plugin-node-resolve'
 import sass from 'rollup-plugin-sass'
 
 export default {
@@ -8,22 +8,15 @@ export default {
   output: [
     {
       file: 'dist/sedom.js',
-      format: 'iife',
-    },
-    {
-      file: 'docs/dist/sedom.js',
-      format: 'iife',
-    },
+      format: 'iife'
+    }
   ],
   plugins: [
     json(),
     resolve(),
     commonjs(),
     sass({
-      output: 'dist/sedom.css',
-    }),
-    sass({
-      output: 'docs/dist/sedom.css',
-    }),
-  ],
+      output: 'dist/sedom.css'
+    })
+  ]
 }
