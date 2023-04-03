@@ -92,7 +92,7 @@
     });
   };
 
-  var version = "0.5.8";
+  var version = "0.6.0";
 
   const initVersion = () => {
     console.log(

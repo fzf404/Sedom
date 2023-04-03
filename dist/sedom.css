@@ -3,6 +3,13 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
 }
 
+*,
+*::before,
+*::after {
+  transition: all 150ms ease-in-out;
+  font-weight: 300;
+}
+
 ::-webkit-scrollbar {
   width: 0.6rem;
   height: 0.6rem;
@@ -21,11 +28,30 @@ code::-webkit-scrollbar {
   height: 0.5rem;
 }
 
-*,
-*::before,
-*::after {
-  transition: all 150ms ease-in-out;
-  font-weight: 300;
+.protect {
+  cursor: default;
+  user-select: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.space > * {
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+.space > a {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 span.white {
@@ -248,8 +274,8 @@ span.rainbow {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
   background-size: 100% 100%;
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 span.rainbow.reverse {
   background-image: linear-gradient(to left, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
@@ -323,73 +349,6 @@ h6 {
   line-height: 2.4rem;
 }
 
-p {
-  display: block;
-  margin: 0.8rem 0;
-  max-width: 36rem;
-  min-height: 2.2rem;
-  font-size: 1.2rem;
-  line-height: 2.2rem;
-}
-
-form {
-  display: block;
-  margin: 0.8rem 0;
-  max-width: 36rem;
-  line-height: 2.8rem;
-}
-
-small {
-  display: block;
-  margin: 0.6rem 0;
-  max-width: 36rem;
-  min-height: 1.8rem;
-  font-size: 1rem;
-  line-height: 1.8rem;
-}
-
-code {
-  display: block;
-  box-sizing: border-box;
-  margin: 0.8rem 0;
-  border-radius: 0.4rem;
-  padding: 0.6rem 0.8rem;
-  max-width: 36rem;
-  overflow: auto;
-  white-space: pre;
-}
-code pre {
-  display: block;
-  margin: 0;
-  min-height: 1rem;
-  font-size: 0.8rem;
-  line-height: 1.4rem;
-}
-
-span {
-  display: inline-block;
-}
-
-label {
-  display: inline-block;
-  margin: 0.4rem;
-  min-width: 2.4rem;
-  font-size: 1.2rem;
-}
-
-input {
-  display: inline-block;
-  margin: 0.4rem;
-  border: 0.2rem solid;
-  border-radius: 0.4rem;
-  padding: 0.5rem;
-  font-size: 1rem;
-  font-family: monospace, sans-serif;
-}
-input:focus {
-  outline: none;
-}
-
 a {
   display: inline-block;
   position: relative;
@@ -420,6 +379,81 @@ a:active::after {
   transition: none;
 }
 
+p {
+  display: block;
+  margin: 0.8rem 0;
+  max-width: 36rem;
+  min-height: 2.2rem;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+small {
+  display: block;
+  margin: 0.6rem 0;
+  max-width: 36rem;
+  min-height: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+span {
+  display: inline-block;
+}
+
+code {
+  display: block;
+  box-sizing: border-box;
+  margin: 0.8rem 0;
+  border-radius: 0.4rem;
+  padding: 0.6rem 0.8rem;
+  max-width: 36rem;
+  overflow: auto;
+  white-space: pre;
+}
+code pre {
+  display: block;
+  margin: 0;
+  min-height: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+hr {
+  display: block;
+  margin: 1.6rem 0;
+  border: none;
+  border-top: 0.1rem solid;
+  max-width: 36rem;
+}
+
+form {
+  display: block;
+  margin: 0.8rem 0;
+  max-width: 36rem;
+  line-height: 2.8rem;
+}
+
+label {
+  display: inline-block;
+  margin: 0.4rem;
+  min-width: 2.4rem;
+  font-size: 1.2rem;
+}
+
+input {
+  display: inline-block;
+  margin: 0.4rem;
+  border: 0.2rem solid;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: monospace, sans-serif;
+}
+input:focus {
+  outline: none;
+}
+
 button {
   display: inline-block;
   opacity: 0.6;
@@ -443,52 +477,6 @@ button:active {
 button:disabled {
   opacity: 0.2;
   cursor: not-allowed;
-}
-
-hr {
-  display: block;
-  margin: 1.6rem 0;
-  border: none;
-  border-top: 0.1rem solid;
-  max-width: 36rem;
-}
-
-.protect {
-  cursor: default;
-  user-select: none;
-}
-
-.theme {
-  position: fixed;
-  right: 4vw;
-  bottom: 4vw;
-  margin: 0;
-  border-radius: 50%;
-  padding: 0;
-  width: 3.4rem;
-  height: 3.4rem;
-  font-size: 1.4rem;
-}
-
-.left {
-  float: left;
-}
-
-.center {
-  text-align: center;
-}
-
-.right {
-  float: right;
-}
-
-.space > * {
-  margin-right: 0.4rem;
-  margin-left: 0.4rem;
-}
-.space > a {
-  margin-right: 0.8rem;
-  margin-left: 0.8rem;
 }
 
 .jump {
@@ -519,69 +507,6 @@ hr {
     transform: rotate(20deg);
     animation-timing-function: ease-in-out;
   }
-}
-
-::selection {
-  -webkit-text-fill-color: #f1f3f5;
-  background: #b1bac0;
-  color: #f1f3f5;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #868e96;
-}
-
-.theme {
-  background: #f1f3f5;
-}
-
-body {
-  background-color: #212529;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #f1f3f5;
-}
-
-a,
-p {
-  color: #dee2e6;
-}
-
-pre,
-code,
-label,
-input,
-small {
-  color: #b1bac0;
-}
-
-hr {
-  border-color: #868e96;
-}
-
-code {
-  background-color: #495057;
-}
-
-input {
-  border-color: #495057;
-  background-color: #495057;
-}
-input:focus {
-  border-color: #868e96;
-}
-
-button {
-  color: #f1f3f5;
-}
-button.middle, button.white, button.light {
-  color: #212529;
 }
 
 [data-theme=dark] ::selection {
@@ -688,4 +613,79 @@ button.middle, button.white, button.light {
 }
 [data-theme=light] hr {
   border-color: #dee2e6;
+}
+
+.theme {
+  position: fixed;
+  right: 4vw;
+  bottom: 4vw;
+  margin: 0;
+  border-radius: 50%;
+  padding: 0;
+  width: 3.4rem;
+  height: 3.4rem;
+  font-size: 1.4rem;
+}
+
+::selection {
+  -webkit-text-fill-color: #f1f3f5;
+  background: #b1bac0;
+  color: #f1f3f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #868e96;
+}
+
+.theme {
+  background: #f1f3f5;
+}
+
+body {
+  background-color: #212529;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f1f3f5;
+}
+
+a,
+p {
+  color: #dee2e6;
+}
+
+pre,
+code,
+label,
+input,
+small {
+  color: #b1bac0;
+}
+
+hr {
+  border-color: #868e96;
+}
+
+code {
+  background-color: #495057;
+}
+
+input {
+  border-color: #495057;
+  background-color: #495057;
+}
+input:focus {
+  border-color: #868e96;
+}
+
+button {
+  color: #f1f3f5;
+}
+button.middle, button.white, button.light {
+  color: #212529;
 }
