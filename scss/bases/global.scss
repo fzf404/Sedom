@@ -1,3 +1,16 @@
+body {
+  padding: 10vh 10vw;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+*,
+*::before,
+*::after {
+  transition: all 150ms ease-in-out;
+
+  font-weight: 300;
+}
+
 ::-webkit-scrollbar {
   width: 0.6rem;
   height: 0.6rem;
@@ -16,10 +29,7 @@ code::-webkit-scrollbar {
   height: 0.5rem;
 }
 
-*,
-*::before,
-*::after {
-  transition: all 150ms ease-in-out;
-
-  font-weight: 300;
+.protect {
+  cursor: default;
+  user-select: none;
 }

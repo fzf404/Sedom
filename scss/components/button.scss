@@ -1,0 +1,33 @@
+button {
+  display: inline-block;
+
+  opacity: 0.6;
+  cursor: pointer;
+
+  margin: 0.4rem 0.2rem;
+
+  outline: none;
+  border: none;
+  border-radius: 0.6rem;
+
+  background-color: $gray;
+
+  padding: 0.4rem 0.8rem;
+
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.4;
+    transition: none;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+  }
+}

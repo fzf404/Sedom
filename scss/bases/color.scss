@@ -1,23 +1,3 @@
-$white: #f1f3f5;
-$light: #dee2e6;
-$middle: #b1bac0;
-$gray: #868e96;
-$dark: #495057;
-$black: #212529;
-
-$red: #f03e3e;
-$orange: #f76707;
-$yellow: #f59f00;
-$lime: #74b816;
-$green: #37b24d;
-$teal: #0ca678;
-$cyan: #1098ad;
-$blue: #1c7cd6;
-$indigo: #4263eb;
-$violet: #7048e8;
-$purple: #ae3ec9;
-$pink: #d6336c;
-
 // 颜色列表
 $colors: (
   white: $white,
@@ -38,7 +18,7 @@ $colors: (
   indigo: $indigo,
   violet: $violet,
   purple: $purple,
-  pink: $pink,
+  pink: $pink
 );
 
 // 颜色样式
@@ -64,8 +44,8 @@ span.rainbow {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, $red, $yellow, $green, $blue, $purple);
   background-size: 100% 100%;
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
 
   &.reverse {
     background-image: linear-gradient(to left, $red, $yellow, $green, $blue, $purple);

@@ -1,0 +1,22 @@
+[data-theme='dark'] {
+  @import 'themes/dark';
+}
+
+[data-theme='light'] {
+  @import 'themes/light';
+}
+
+.theme {
+  position: fixed;
+
+  right: 4vw;
+  bottom: 4vw;
+  margin: 0;
+
+  border-radius: 50%;
+  padding: 0;
+
+  width: 3.4rem;
+  height: 3.4rem;
+  font-size: 1.4rem;
+}

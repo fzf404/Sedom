@@ -9,6 +9,10 @@ export default {
     {
       file: 'dist/sedom.js',
       format: 'iife'
+    },
+    {
+      file: 'docs/dist/sedom.js',
+      format: 'iife'
     }
   ],
   plugins: [
@@ -17,6 +21,9 @@ export default {
     commonjs(),
     sass({
       output: 'dist/sedom.css'
+    }),
+    sass({
+      output: 'docs/dist/sedom.css'
     })
   ]
 }

@@ -1,7 +1,7 @@
-import { initDOM } from './script/sedom'
-import { getTheme, toggleTheme } from './script/theme'
+import { initDOM } from './js/sedom'
+import { getTheme, toggleTheme } from './js/theme'
 
-import './style/sedom.scss'
+import './scss/sedom.scss'
 
 // 防止重复初始化
 if (!window.Sedom) {

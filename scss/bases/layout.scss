@@ -1,0 +1,23 @@
+.center {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.space {
+  > * {
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+  }
+
+  > a {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+  }
+}
