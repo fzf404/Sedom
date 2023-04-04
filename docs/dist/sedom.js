@@ -1,3 +1,5 @@
+
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 (function () {
   'use strict';
 
@@ -35,36 +37,6 @@
     });
   };
 
-  // 初始化颜色
-  const initColor = () => {
-    // 颜色表
-    const color = [
-      'white',
-      'light',
-      'middle',
-      'gray',
-      'dark',
-      'black',
-      'red',
-      'orange',
-      'yellow',
-      'lime',
-      'green',
-      'teal',
-      'cyan',
-      'blue',
-      'indigo',
-      'violet',
-      'purple',
-      'pink',
-      'rainbow'
-    ];
-    // 随机颜色
-    document.querySelectorAll('.random').forEach((element) => {
-      element.classList.add(`${color[Math.floor(Math.random() * color.length)]}`);
-    });
-  };
-
   // 获取主题
   const getTheme = () => {
     return localStorage.getItem('theme') || 'dark'
@@ -92,7 +64,7 @@
     });
   };
 
-  var version = "0.6.0";
+  var version = "0.6.1";
 
   const initVersion = () => {
     console.log(
@@ -104,7 +76,6 @@
 
   const initDOM = () => {
     initTheme();
-    initColor();
     initCode();
     initVersion();
   };

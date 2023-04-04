@@ -1,5 +1,7 @@
 body {
   padding: 10vh 10vw;
+  min-width: 24rem;
+  max-width: 36rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
 }
 
@@ -24,8 +26,8 @@ body {
 }
 
 code::-webkit-scrollbar {
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 0.4rem;
+  height: 0.4rem;
 }
 
 .protect {
@@ -295,58 +297,67 @@ button.rainbow.reverse {
   background-image: linear-gradient(315deg, #f03e3e, #f59f00, #37b24d, #1c7cd6, #ae3ec9);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.2rem 0;
+}
+
 h1 {
-  display: block;
-  margin: 1.4rem 0;
-  max-width: 36rem;
-  min-height: 5rem;
   font-size: 4rem;
   line-height: 5rem;
 }
 
 h2 {
-  display: block;
-  margin: 1.4rem 0;
-  max-width: 36rem;
-  min-height: 4.2rem;
   font-size: 3.2rem;
   line-height: 4.2rem;
 }
 
 h3 {
-  display: block;
-  margin: 1.2rem 0;
-  max-width: 36rem;
-  min-height: 3.6rem;
   font-size: 2.6rem;
   line-height: 3.6rem;
 }
 
 h4 {
-  display: block;
-  margin: 1.2rem 0;
-  max-width: 36rem;
-  min-height: 3.2rem;
   font-size: 2.2rem;
   line-height: 3.2rem;
 }
 
 h5 {
-  display: block;
-  margin: 1rem 0;
-  max-width: 36rem;
-  min-height: 2.8rem;
   font-size: 1.8rem;
   line-height: 2.8rem;
 }
 
 h6 {
-  display: block;
-  margin: 1rem 0;
-  max-width: 36rem;
-  min-height: 2.4rem;
   font-size: 1.4rem;
   line-height: 2.4rem;
+}
+
+p {
+  margin: 0.8rem 0;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+small {
+  display: block;
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+span {
+  display: inline-block;
+}
+
+hr {
+  display: block;
+  margin: 1.2rem 0;
+  border: none;
+  border-top: 0.1rem solid;
 }
 
 a {
@@ -354,9 +365,7 @@ a {
   position: relative;
   cursor: pointer;
   margin: 0.2rem 0.6rem;
-  padding: 0.2rem;
-  min-width: 0.6rem;
-  max-width: 36rem;
+  padding: 0.2rem 0.4rem;
   text-decoration: none;
 }
 a::after {
@@ -379,65 +388,31 @@ a:active::after {
   transition: none;
 }
 
-p {
-  display: block;
-  margin: 0.8rem 0;
-  max-width: 36rem;
-  min-height: 2.2rem;
-  font-size: 1.2rem;
-  line-height: 2.2rem;
-}
-
-small {
-  display: block;
-  margin: 0.6rem 0;
-  max-width: 36rem;
-  min-height: 1.8rem;
-  font-size: 1rem;
-  line-height: 1.8rem;
-}
-
-span {
-  display: inline-block;
-}
-
 code {
   display: block;
   box-sizing: border-box;
-  margin: 0.8rem 0;
+  margin: 1.2rem 0;
   border-radius: 0.4rem;
   padding: 0.6rem 0.8rem;
-  max-width: 36rem;
   overflow: auto;
   white-space: pre;
 }
 code pre {
   display: block;
   margin: 0;
-  min-height: 1rem;
+  min-height: 1.4rem;
   font-size: 0.8rem;
   line-height: 1.4rem;
 }
 
-hr {
-  display: block;
-  margin: 1.6rem 0;
-  border: none;
-  border-top: 0.1rem solid;
-  max-width: 36rem;
-}
-
 form {
-  display: block;
   margin: 0.8rem 0;
-  max-width: 36rem;
   line-height: 2.8rem;
 }
 
 label {
   display: inline-block;
   margin: 0.4rem;
-  min-width: 2.4rem;
   font-size: 1.2rem;
 }
 
@@ -446,7 +421,7 @@ input {
   margin: 0.4rem;
   border: 0.2rem solid;
   border-radius: 0.4rem;
-  padding: 0.5rem;
+  padding: 0.4rem;
   font-size: 1rem;
   font-family: monospace, sans-serif;
 }
@@ -509,9 +484,21 @@ button:disabled {
   }
 }
 
+.theme {
+  position: fixed;
+  right: 4vw;
+  bottom: 4vw;
+  margin: 0;
+  border-radius: 50%;
+  padding: 0;
+  width: 3.4rem;
+  height: 3.4rem;
+  font-size: 1.4rem;
+}
+
 [data-theme=dark] ::selection {
   -webkit-text-fill-color: #f1f3f5;
-  background: #b1bac0;
+  background: #868e96;
   color: #f1f3f5;
 }
 [data-theme=dark] ::-webkit-scrollbar-thumb {
@@ -563,15 +550,15 @@ button:disabled {
 }
 
 [data-theme=light] ::selection {
-  -webkit-text-fill-color: #dee2e6;
-  background: #868e96;
-  color: #dee2e6;
+  -webkit-text-fill-color: #f1f3f5;
+  background: #b1bac0;
+  color: #f1f3f5;
 }
 [data-theme=light] ::-webkit-scrollbar-thumb {
   background-color: #b1bac0;
 }
 [data-theme=light] .theme {
-  background: #b1bac0;
+  background: #dee2e6;
 }
 [data-theme=light] body {
   background-color: #f1f3f5;
@@ -615,21 +602,9 @@ button:disabled {
   border-color: #dee2e6;
 }
 
-.theme {
-  position: fixed;
-  right: 4vw;
-  bottom: 4vw;
-  margin: 0;
-  border-radius: 50%;
-  padding: 0;
-  width: 3.4rem;
-  height: 3.4rem;
-  font-size: 1.4rem;
-}
-
 ::selection {
   -webkit-text-fill-color: #f1f3f5;
-  background: #b1bac0;
+  background: #868e96;
   color: #f1f3f5;
 }
 
