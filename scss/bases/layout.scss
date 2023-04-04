@@ -12,12 +12,11 @@
 
 .space {
   > * {
-    margin-right: 0.4rem;
-    margin-left: 0.4rem;
+    margin-right: $edge-space;
+    margin-left: $edge-space;
   }
-
   > a {
-    margin-right: 0.8rem;
-    margin-left: 0.8rem;
+    margin-right: $edge-space * 2;
+    margin-left: $edge-space * 2;
   }
 }

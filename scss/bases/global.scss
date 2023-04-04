@@ -1,6 +1,9 @@
 body {
-  padding: 10vh 10vw;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+  padding: $global-padding;
+  min-width: $global-min-width;
+  max-width: $global-max-width;
+
+  font-family: $global-font-family;
 }
 
 *,
@@ -8,12 +11,12 @@ body {
 *::after {
   transition: all 150ms ease-in-out;
 
-  font-weight: 300;
+  font-weight: $global-font-weight;
 }
 
 ::-webkit-scrollbar {
-  width: 0.6rem;
-  height: 0.6rem;
+  width: $global-scrollbar;
+  height: $global-scrollbar;
 }
 
 ::-webkit-scrollbar-corner {
@@ -21,12 +24,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 0.4rem;
+  border-radius: $global-scrollbar-radius;
 }
 
 code::-webkit-scrollbar {
-  width: 0.5rem;
-  height: 0.5rem;
+  width: $global-scrollbar - 0.2rem;
+  height: $global-scrollbar - 0.2rem;
 }
 
 .protect {

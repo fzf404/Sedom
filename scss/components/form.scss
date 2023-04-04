@@ -1,31 +1,28 @@
 form {
-  display: block;
-  margin: 0.8rem 0;
+  margin: $edge-block 0;
 
-  max-width: 36rem;
-  line-height: 2.8rem;
+  line-height: $font-size-normal + $line-height-block + $line-height-inline;
 }
 
 label {
   display: inline-block;
 
-  margin: 0.4rem;
+  margin: $edge-space;
 
-  min-width: 2.4rem;
-  font-size: 1.2rem;
+  font-size: $font-size-normal;
 }
 
 input {
   display: inline-block;
 
-  margin: 0.4rem;
+  margin: $edge-space;
 
-  border: 0.2rem solid;
-  border-radius: 0.4rem;
+  border: $edge-base solid;
+  border-radius: $radius-small;
 
-  padding: 0.5rem;
+  padding: $edge-space;
 
-  font-size: 1rem;
+  font-size: $font-size-small;
   font-family: monospace, sans-serif;
 
   &:focus {

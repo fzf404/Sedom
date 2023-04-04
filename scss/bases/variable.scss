@@ -1,20 +1,59 @@
-// 颜色
-$white: #f1f3f5;
-$light: #dee2e6;
-$middle: #b1bac0;
-$gray: #868e96;
-$dark: #495057;
-$black: #212529;
+// 全局
+$global-padding: 10vh 10vw;
+$global-min-width: 24rem;
+$global-max-width: 36rem;
 
-$red: #f03e3e;
-$orange: #f76707;
-$yellow: #f59f00;
-$lime: #74b816;
-$green: #37b24d;
-$teal: #0ca678;
-$cyan: #1098ad;
-$blue: #1c7cd6;
-$indigo: #4263eb;
-$violet: #7048e8;
-$purple: #ae3ec9;
-$pink: #d6336c;
+$global-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+$global-font-weight: 300;
+
+$global-scrollbar: 0.6rem;
+$global-scrollbar-radius: 0.4rem;
+
+// 颜色
+$color-white: #f1f3f5;
+$color-light: #dee2e6;
+$color-middle: #b1bac0;
+$color-gray: #868e96;
+$color-dark: #495057;
+$color-black: #212529;
+
+$color-red: #f03e3e;
+$color-orange: #f76707;
+$color-yellow: #f59f00;
+$color-lime: #74b816;
+$color-green: #37b24d;
+$color-teal: #0ca678;
+$color-cyan: #1098ad;
+$color-blue: #1c7cd6;
+$color-indigo: #4263eb;
+$color-violet: #7048e8;
+$color-purple: #ae3ec9;
+$color-pink: #d6336c;
+
+// 字体
+$font-size-h1: 4rem;
+$font-size-h2: 3.2rem;
+$font-size-h3: 2.6rem;
+$font-size-h4: 2.2rem;
+$font-size-h5: 1.8rem;
+$font-size-h6: 1.4rem;
+$font-size-normal: 1.2rem;
+$font-size-small: 1rem;
+$font-size-code: 0.8rem;
+
+// 行高
+$line-height-block: 1rem;
+$line-height-inline: 0.6rem;
+
+// 边距
+$edge-base: 0.2rem;
+$edge-space: 0.4rem;
+$edge-block: 0.8rem;
+$edge-header: 1.2rem;
+
+// 圆角
+$radius-small: 0.4rem;
+$radius-normal: 0.6rem;
+
+// 边框
+$border-base: 0.1rem;

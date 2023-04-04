@@ -1,24 +1,24 @@
 // 颜色列表
 $colors: (
-  white: $white,
-  light: $light,
-  middle: $middle,
-  gray: $gray,
-  dark: $dark,
-  black: $black,
+  white: $color-white,
+  light: $color-light,
+  middle: $color-middle,
+  gray: $color-gray,
+  dark: $color-dark,
+  black: $color-black,
 
-  red: $red,
-  orange: $orange,
-  yellow: $yellow,
-  lime: $lime,
-  green: $green,
-  teal: $teal,
-  cyan: $cyan,
-  blue: $blue,
-  indigo: $indigo,
-  violet: $violet,
-  purple: $purple,
-  pink: $pink
+  red: $color-red,
+  orange: $color-orange,
+  yellow: $color-yellow,
+  lime: $color-lime,
+  green: $color-green,
+  teal: $color-teal,
+  cyan: $color-cyan,
+  blue: $color-blue,
+  indigo: $color-indigo,
+  violet: $color-violet,
+  purple: $color-purple,
+  pink: $color-pink
 );
 
 // 颜色样式
@@ -42,32 +42,32 @@ $colors: (
 // 彩虹文字
 span.rainbow {
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, $red, $yellow, $green, $blue, $purple);
+  background-image: linear-gradient(to right, $color-red, $color-yellow, $color-green, $color-blue, $color-purple);
   background-size: 100% 100%;
   -webkit-background-clip: text;
   background-clip: text;
 
   &.reverse {
-    background-image: linear-gradient(to left, $red, $yellow, $green, $blue, $purple);
+    background-image: linear-gradient(to left, $color-red, $color-yellow, $color-green, $color-blue, $color-purple);
   }
 }
 
 // 彩虹链接
 a.rainbow {
   &::after {
-    background-image: linear-gradient(135deg, $red, $yellow, $green, $blue, $purple);
+    background-image: linear-gradient(135deg, $color-red, $color-yellow, $color-green, $color-blue, $color-purple);
   }
 
   &.reverse::after {
-    background-image: linear-gradient(315deg, $red, $yellow, $green, $blue, $purple);
+    background-image: linear-gradient(315deg, $color-red, $color-yellow, $color-green, $color-blue, $color-purple);
   }
 }
 
 // 彩虹按钮
 button.rainbow {
-  background-image: linear-gradient(135deg, $red, $yellow, $green, $blue, $purple);
+  background-image: linear-gradient(135deg, $color-red, $color-yellow, $color-green, $color-blue, $color-purple);
 
   &.reverse {
-    background-image: linear-gradient(315deg, $red, $yellow, $green, $blue, $purple);
+    background-image: linear-gradient(315deg, $color-red, $color-yellow, $color-green, $color-blue, $color-purple);
   }
 }

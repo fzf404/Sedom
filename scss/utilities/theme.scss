@@ -1,11 +1,3 @@
-[data-theme='dark'] {
-  @import 'themes/dark';
-}
-
-[data-theme='light'] {
-  @import 'themes/light';
-}
-
 .theme {
   position: fixed;
 
@@ -16,7 +8,15 @@
   border-radius: 50%;
   padding: 0;
 
-  width: 3.4rem;
-  height: 3.4rem;
-  font-size: 1.4rem;
+  width: $font-size-h6 + $line-height-block * 2;
+  height: $font-size-h6 + $line-height-block * 2;
+  font-size: $font-size-h6;
+}
+
+[data-theme='dark'] {
+  @import 'themes/dark';
+}
+
+[data-theme='light'] {
+  @import 'themes/light';
 }

@@ -1,65 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: $edge-header 0;
+}
+
 h1 {
-  display: block;
-  margin: 1.4rem 0;
-
-  max-width: 36rem;
-  min-height: 5rem;
-
-  font-size: 4rem;
-  line-height: 5rem;
+  font-size: $font-size-h1;
+  line-height: $font-size-h1 + $line-height-block;
 }
 
 h2 {
-  display: block;
-  margin: 1.4rem 0;
-
-  max-width: 36rem;
-  min-height: 4.2rem;
-
-  font-size: 3.2rem;
-  line-height: 4.2rem;
+  font-size: $font-size-h2;
+  line-height: $font-size-h2 + $line-height-block;
 }
 
 h3 {
-  display: block;
-  margin: 1.2rem 0;
-
-  max-width: 36rem;
-  min-height: 3.6rem;
-
-  font-size: 2.6rem;
-  line-height: 3.6rem;
+  font-size: $font-size-h3;
+  line-height: $font-size-h3 + $line-height-block;
 }
 
 h4 {
-  display: block;
-  margin: 1.2rem 0;
-
-  max-width: 36rem;
-  min-height: 3.2rem;
-
-  font-size: 2.2rem;
-  line-height: 3.2rem;
+  font-size: $font-size-h4;
+  line-height: $font-size-h4 + $line-height-block;
 }
 
 h5 {
-  display: block;
-  margin: 1rem 0;
-
-  max-width: 36rem;
-  min-height: 2.8rem;
-
-  font-size: 1.8rem;
-  line-height: 2.8rem;
+  font-size: $font-size-h5;
+  line-height: $font-size-h5 + $line-height-block;
 }
 
 h6 {
-  display: block;
-  margin: 1rem 0;
-
-  max-width: 36rem;
-  min-height: 2.4rem;
-
-  font-size: 1.4rem;
-  line-height: 2.4rem;
+  font-size: $font-size-h6;
+  line-height: $font-size-h6 + $line-height-block;
 }

@@ -1,0 +1,36 @@
+a {
+  display: inline-block;
+  position: relative;
+
+  cursor: pointer;
+
+  margin: $edge-base $edge-base * 3;
+  padding: $edge-base $edge-base * 2;
+
+  text-decoration: none;
+
+  &::after {
+    position: absolute;
+
+    top: 60%;
+    right: -$edge-base * 2;
+    bottom: 0;
+    left: -$edge-base * 2;
+    opacity: 0.4;
+
+    z-index: -1;
+
+    border-radius: $radius-normal;
+    background-color: $color-gray;
+    content: '';
+  }
+
+  &:hover::after {
+    top: 0%;
+  }
+
+  &:active::after {
+    opacity: 0.2;
+    transition: none;
+  }
+}

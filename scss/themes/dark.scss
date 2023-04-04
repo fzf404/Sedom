@@ -1,19 +1,19 @@
 ::selection {
-  -webkit-text-fill-color: $white;
-  background: $middle;
-  color: $white;
+  -webkit-text-fill-color: $color-white;
+  background: $color-gray;
+  color: $color-white;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: $gray;
+  background-color: $color-gray;
 }
 
 .theme {
-  background: $white;
+  background: $color-white;
 }
 
 body {
-  background-color: $black;
+  background-color: $color-black;
 }
 
 h1,
@@ -22,12 +22,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: $white;
+  color: $color-white;
 }
 
 a,
 p {
-  color: $light;
+  color: $color-light;
 }
 
 pre,
@@ -35,32 +35,32 @@ code,
 label,
 input,
 small {
-  color: $middle;
+  color: $color-middle;
 }
 
 hr {
-  border-color: $gray;
+  border-color: $color-gray;
 }
 
 code {
-  background-color: $dark;
+  background-color: $color-dark;
 }
 
 input {
-  border-color: $dark;
-  background-color: $dark;
+  border-color: $color-dark;
+  background-color: $color-dark;
 
   &:focus {
-    border-color: $gray;
+    border-color: $color-gray;
   }
 }
 
 button {
-  color: $white;
+  color: $color-white;
 
   &.middle,
   &.white,
   &.light {
-    color: $black;
+    color: $color-black;
   }
 }
