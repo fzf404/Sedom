@@ -12,7 +12,7 @@ $global-scrollbar-radius: 0.4rem;
 // 颜色
 $color-white: #f1f3f5;
 $color-light: #dee2e6;
-$color-middle: #b1bac0;
+$color-middle: #ced4da;
 $color-gray: #868e96;
 $color-dark: #495057;
 $color-black: #212529;
@@ -52,8 +52,12 @@ $edge-block: 0.8rem;
 $edge-header: 1.2rem;
 
 // 圆角
+$radius-border: 0.2rem;
 $radius-small: 0.4rem;
 $radius-normal: 0.6rem;
 
+$radius-circle: 50%;
+
 // 边框
-$border-base: 0.1rem;
+$border-small: 0.1rem;
+$border-base: 0.2rem;
