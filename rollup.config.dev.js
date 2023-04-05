@@ -21,7 +21,6 @@ export default {
       output: 'docs/dist/sedom.css'
     }),
     serve({
-      open: true,
       port: '3000',
       contentBase: 'docs'
     }),
