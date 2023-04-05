@@ -26,7 +26,8 @@ h6 {
 }
 
 a,
-p {
+p,
+tr {
   color: $color-dark;
 }
 
@@ -36,6 +37,12 @@ label,
 input,
 small {
   color: $color-gray;
+}
+
+th,
+td,
+hr {
+  border-color: $color-middle;
 }
 
 code {
@@ -58,8 +65,4 @@ input {
   &:focus {
     border-color: $color-middle;
   }
-}
-
-hr {
-  border-color: $color-light;
 }

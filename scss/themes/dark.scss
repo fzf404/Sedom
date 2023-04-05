@@ -26,7 +26,8 @@ h6 {
 }
 
 a,
-p {
+p,
+tr {
   color: $color-light;
 }
 
@@ -38,6 +39,8 @@ small {
   color: $color-middle;
 }
 
+th,
+td,
 hr {
   border-color: $color-gray;
 }
