@@ -346,7 +346,7 @@ small {
   display: block;
   margin: 0.8rem 0;
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.6rem;
 }
 
 span {
@@ -377,7 +377,7 @@ a::after {
   left: -0.4rem;
   opacity: 0.4;
   z-index: -1;
-  border-radius: 0.6rem;
+  border-radius: 0.4rem;
   background-color: #ced4da;
   content: "";
 }
@@ -396,7 +396,7 @@ button {
   margin: 0.4rem 0.2rem;
   outline: none;
   border: none;
-  border-radius: 0.6rem;
+  border-radius: 0.4rem;
   background-color: #868e96;
   padding: 0.4rem 0.8rem;
   font-size: 1.2rem;
@@ -433,22 +433,24 @@ code pre {
 
 form {
   margin: 0.8rem 0;
-  line-height: 2.8rem;
+  line-height: 3.6rem;
+}
+
+label,
+input {
+  display: inline-block;
+  margin: 0 0.4rem;
 }
 
 label {
-  display: inline-block;
-  margin: 0.4rem;
   font-size: 1.2rem;
 }
 
 input {
-  display: inline-block;
-  margin: 0.4rem;
   border: 0.2rem solid;
   border-radius: 0.4rem;
-  padding: 0.4rem;
-  font-size: 1rem;
+  padding: 0.5rem;
+  font-size: 1.1rem;
   font-family: monospace, sans-serif;
 }
 input:focus {
@@ -462,8 +464,7 @@ table {
 }
 table th,
 table td {
-  padding: 0.4rem;
-  line-height: 1.8rem;
+  padding: 0.8rem;
   text-align: center;
 }
 table th {
@@ -577,7 +578,7 @@ table td {
 
 [data-theme=light] ::selection {
   -webkit-text-fill-color: #f1f3f5;
-  background: #ced4da;
+  background: #868e96;
   color: #f1f3f5;
 }
 [data-theme=light] ::-webkit-scrollbar-thumb {
@@ -612,7 +613,7 @@ table td {
 [data-theme=light] th,
 [data-theme=light] td,
 [data-theme=light] hr {
-  border-color: #ced4da;
+  border-color: #dee2e6;
 }
 [data-theme=light] code {
   background-color: #dee2e6;
