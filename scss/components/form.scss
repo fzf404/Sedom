@@ -1,6 +1,10 @@
 form {
   margin: $edge-block 0;
   line-height: $font-size-large + $line-height-inline * 4;
+
+  button {
+    margin: 0 $edge-space;
+  }
 }
 
 label,
