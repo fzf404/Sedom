@@ -1,21 +1,22 @@
 code {
   display: block;
   box-sizing: border-box;
+
   margin: $edge-header 0;
 
-  border-radius: $radius-small;
+  border-radius: $radius-normal;
   padding: $edge-space + $edge-base $edge-block;
 
   overflow: auto;
-
   white-space: pre;
 
   pre {
     display: block;
 
     margin: 0;
-    min-height: $font-size-code + $line-height-inline;
-    font-size: $font-size-code;
-    line-height: $font-size-code + $line-height-inline;
+    min-height: $font-size-small + $line-height-inline;
+
+    font-size: $font-size-small;
+    line-height: $font-size-small + $line-height-inline;
   }
 }

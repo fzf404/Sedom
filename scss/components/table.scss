@@ -6,23 +6,22 @@ table {
 
   th,
   td {
-    padding: $edge-space;
+    padding: $edge-block;
 
-    line-height: $font-size-normal + $line-height-inline;
     text-align: center;
   }
 
   th {
-    border-bottom: $border-base solid;
-    border-radius: $radius-border;
+    border-bottom: $border-normal solid;
+    border-radius: $radius-small;
 
-    font-size: $font-size-normal;
+    font-size: $font-size-large;
   }
 
   td {
     border-top: $border-small solid;
-    border-radius: $radius-border;
+    border-radius: $radius-small;
 
-    font-size: $font-size-small;
+    font-size: $font-size-normal;
   }
 }

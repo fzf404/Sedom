@@ -1,16 +1,16 @@
 p {
   margin: $edge-block 0;
 
-  font-size: $font-size-normal;
-  line-height: $font-size-normal + $line-height-block;
+  font-size: $font-size-large;
+  line-height: $font-size-large + $line-height-block;
 }
 
 small {
   display: block;
   margin: $edge-block 0;
 
-  font-size: $font-size-small;
-  line-height: $font-size-small + $line-height-block;
+  font-size: $font-size-normal;
+  line-height: $font-size-normal + $line-height-inline;
 }
 
 span {
@@ -22,6 +22,6 @@ hr {
   margin: $edge-header 0;
 
   border: none;
-  border-top: $border-base solid;
-  border-radius: $radius-border;
+  border-top: $border-normal solid;
+  border-radius: $radius-small;
 }

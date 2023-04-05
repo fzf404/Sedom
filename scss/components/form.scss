@@ -1,28 +1,24 @@
 form {
   margin: $edge-block 0;
+}
 
-  line-height: $font-size-normal + $line-height-block + $line-height-inline;
+label,
+input {
+  display: inline-block;
+  margin: $edge-block $edge-space;
 }
 
 label {
-  display: inline-block;
-
-  margin: $edge-space;
-
-  font-size: $font-size-normal;
+  font-size: $font-size-large;
 }
 
 input {
-  display: inline-block;
-
-  margin: $edge-space;
-
   border: $edge-base solid;
-  border-radius: $radius-small;
+  border-radius: $radius-normal;
 
-  padding: $edge-space;
+  padding: $edge-space + 0.1rem;
 
-  font-size: $font-size-small;
+  font-size: $font-size-normal + 0.1rem;
   font-family: monospace, sans-serif;
 
   &:focus {

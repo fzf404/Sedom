@@ -1,6 +1,6 @@
 ::selection {
   -webkit-text-fill-color: $color-white;
-  background: $color-middle;
+  background: $color-gray;
   color: $color-white;
 }
 
@@ -42,7 +42,7 @@ small {
 th,
 td,
 hr {
-  border-color: $color-middle;
+  border-color: $color-light;
 }
 
 code {

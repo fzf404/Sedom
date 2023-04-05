@@ -4,7 +4,7 @@ button {
   opacity: 0.6;
   cursor: pointer;
 
-  margin: $edge-base * 2 $edge-base;
+  margin: $edge-space $edge-base;
 
   outline: none;
   border: none;
@@ -12,10 +12,10 @@ button {
 
   background-color: $color-gray;
 
-  padding: $edge-base * 2 $edge-base * 4;
+  padding: $edge-space $edge-block;
 
-  font-size: $font-size-normal;
-  line-height: $font-size-normal + $line-height-inline;
+  font-size: $font-size-large;
+  line-height: $font-size-large + $line-height-inline;
 
   &:hover {
     opacity: 1;

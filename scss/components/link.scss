@@ -4,8 +4,8 @@ a {
 
   cursor: pointer;
 
-  margin: $edge-base $edge-base * 3;
-  padding: $edge-base $edge-base * 2;
+  margin: $edge-base $edge-space + $edge-base;
+  padding: $edge-base $edge-space;
 
   text-decoration: none;
 
@@ -13,9 +13,9 @@ a {
     position: absolute;
 
     top: 60%;
-    right: -$edge-base * 2;
+    right: -$edge-space;
     bottom: 0;
-    left: -$edge-base * 2;
+    left: -$edge-space;
     opacity: 0.4;
 
     z-index: -1;
