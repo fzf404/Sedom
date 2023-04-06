@@ -1,0 +1,11 @@
+aside {
+  float: right;
+  margin: $edge-space;
+  border-left: $color-middle $border-normal solid;
+  padding-left: $edge-block;
+  width: 30%;
+
+  color: $color-gray;
+  font-size: $font-size-small;
+  line-height: $font-size-small + $line-height-inline;
+}
