@@ -13,15 +13,19 @@ small {
   line-height: $font-size-normal + $line-height-inline;
 }
 
-span {
+span,
+abbr {
   display: inline-block;
 }
 
-hr {
-  display: block;
-  margin: $edge-header 0;
+abbr {
+  display: inline-block;
 
-  border: none;
-  border-top: $border-normal solid;
-  border-radius: $radius-small;
+  margin: 0 $edge-space;
+
+  font-style: italic;
+
+  &[title] {
+    text-decoration: $color-gray wavy underline 0.1rem;
+  }
 }

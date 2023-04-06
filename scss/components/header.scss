@@ -36,3 +36,11 @@ h6 {
   font-size: $font-size-h6;
   line-height: $font-size-h6 + $line-height-block;
 }
+
+hr {
+  margin: $edge-header 0;
+
+  border: none;
+  border-top: $border-normal solid;
+  border-radius: $radius-small;
+}
