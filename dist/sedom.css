@@ -1,6 +1,6 @@
 body {
   padding: 10vh 10vw;
-  min-width: 24rem;
+  min-width: 28rem;
   max-width: 36rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
 }
@@ -433,7 +433,7 @@ code pre {
 
 form {
   margin: 0.8rem 0;
-  line-height: 3.6rem;
+  line-height: 3.8rem;
 }
 form button {
   margin: 0 0.4rem;
@@ -463,22 +463,27 @@ input:focus {
 table {
   border-collapse: collapse;
   background-color: transparent;
-  width: 100%;
+  min-width: 80%;
 }
 table th,
 table td {
+  border-radius: 0.2rem;
   padding: 0.8rem;
   text-align: center;
 }
+table th a,
+table td a {
+  margin: 0;
+}
 table th {
   border-bottom: 0.2rem solid;
-  border-radius: 0.2rem;
   font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 table td {
   border-top: 0.1rem solid;
-  border-radius: 0.2rem;
   font-size: 1rem;
+  line-height: 1.6rem;
 }
 
 .jump {

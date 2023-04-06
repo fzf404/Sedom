@@ -62,7 +62,7 @@
     });
   };
 
-  var version = "0.6.3";
+  var version = "0.6.4";
 
   const initVersion = () => {
     console.log(
