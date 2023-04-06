@@ -66,3 +66,16 @@ input {
     border-color: $color-middle;
   }
 }
+
+abbr[title] {
+  text-decoration-color: $color-middle;
+}
+
+aside {
+  border-color: $color-middle;
+  color: $color-gray;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: $color-light;
+}

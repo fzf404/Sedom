@@ -67,3 +67,16 @@ button {
     color: $color-black;
   }
 }
+
+abbr[title] {
+  text-decoration-color: $color-gray;
+}
+
+aside {
+  border-color: $color-dark;
+  color: $color-gray;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: $color-middle;
+}

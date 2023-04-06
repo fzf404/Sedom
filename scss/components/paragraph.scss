@@ -1,6 +1,5 @@
 p {
   margin: $edge-block 0;
-
   font-size: $font-size-large;
   line-height: $font-size-large + $line-height-block;
 }
@@ -20,12 +19,12 @@ abbr {
 
 abbr {
   display: inline-block;
-
   margin: 0 $edge-space;
-
   font-style: italic;
 
   &[title] {
-    text-decoration: $color-gray wavy underline 0.1rem;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: $border-small;
   }
 }

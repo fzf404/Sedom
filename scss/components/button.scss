@@ -3,7 +3,6 @@ button {
 
   opacity: 0.6;
   cursor: pointer;
-
   margin: $edge-space $edge-base;
 
   outline: none;
@@ -11,9 +10,7 @@ button {
   border-radius: $radius-normal;
 
   background-color: $color-gray;
-
   padding: $edge-space $edge-block;
-
   font-size: $font-size-large;
   line-height: $font-size-large + $line-height-inline;
 
