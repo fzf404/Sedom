@@ -1,27 +1,31 @@
 table {
   border-collapse: collapse;
   background-color: transparent;
-
-  width: 100%;
+  min-width: 80%;
 
   th,
   td {
+    border-radius: $radius-small;
     padding: $edge-block;
 
     text-align: center;
+
+    a {
+      margin: 0;
+    }
   }
 
   th {
     border-bottom: $border-normal solid;
-    border-radius: $radius-small;
 
     font-size: $font-size-large;
+    line-height: $font-size-large + $line-height-inline;
   }
 
   td {
     border-top: $border-small solid;
-    border-radius: $radius-small;
 
     font-size: $font-size-normal;
+    line-height: $font-size-normal + $line-height-inline;
   }
 }
