@@ -336,6 +336,13 @@ h6 {
   line-height: 2.4rem;
 }
 
+hr {
+  margin: 1.2rem 0;
+  border: none;
+  border-top: 0.2rem solid;
+  border-radius: 0.2rem;
+}
+
 p {
   margin: 0.8rem 0;
   font-size: 1.2rem;
@@ -349,16 +356,30 @@ small {
   line-height: 1.6rem;
 }
 
-span {
+span,
+abbr {
   display: inline-block;
 }
 
-hr {
-  display: block;
-  margin: 1.2rem 0;
-  border: none;
-  border-top: 0.2rem solid;
-  border-radius: 0.2rem;
+abbr {
+  display: inline-block;
+  margin: 0 0.4rem;
+  font-style: italic;
+}
+abbr[title] {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 0.1rem;
+}
+
+aside {
+  float: right;
+  margin: 0.4rem;
+  border-left: 0.2rem solid;
+  padding-left: 0.8rem;
+  width: 30%;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
 }
 
 a {
@@ -486,6 +507,11 @@ table td {
   line-height: 1.6rem;
 }
 
+audio {
+  display: block;
+  margin: 1.2rem 0;
+}
+
 .jump {
   display: inline-block;
   animation: jump 1s infinite;
@@ -583,6 +609,16 @@ table td {
 [data-theme=dark] button.middle, [data-theme=dark] button.white, [data-theme=dark] button.light {
   color: #212529;
 }
+[data-theme=dark] abbr[title] {
+  text-decoration-color: #868e96;
+}
+[data-theme=dark] aside {
+  border-color: #495057;
+  color: #868e96;
+}
+[data-theme=dark] audio::-webkit-media-controls-panel {
+  background-color: #ced4da;
+}
 
 [data-theme=light] ::selection {
   -webkit-text-fill-color: #f1f3f5;
@@ -638,6 +674,16 @@ table td {
 }
 [data-theme=light] input:focus {
   border-color: #ced4da;
+}
+[data-theme=light] abbr[title] {
+  text-decoration-color: #ced4da;
+}
+[data-theme=light] aside {
+  border-color: #ced4da;
+  color: #868e96;
+}
+[data-theme=light] audio::-webkit-media-controls-panel {
+  background-color: #dee2e6;
 }
 
 ::selection {
@@ -704,4 +750,17 @@ button {
 }
 button.middle, button.white, button.light {
   color: #212529;
+}
+
+abbr[title] {
+  text-decoration-color: #868e96;
+}
+
+aside {
+  border-color: #495057;
+  color: #868e96;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ced4da;
 }
