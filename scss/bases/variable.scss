@@ -6,8 +6,8 @@ $global-max-width: 36rem;
 $global-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
 $global-font-weight: 300;
 
-$global-scrollbar: 0.6rem;
-$global-scrollbar-radius: 0.4rem;
+$global-scroll: 0.6rem;
+$global-scroll-radius: 0.4rem;
 
 // 颜色
 $color-white: #f1f3f5;
@@ -31,25 +31,27 @@ $color-purple: #ae3ec9;
 $color-pink: #d6336c;
 
 // 字体
-$font-size-h1: 4rem;
-$font-size-h2: 3.2rem;
-$font-size-h3: 2.6rem;
-$font-size-h4: 2.2rem;
-$font-size-h5: 1.8rem;
-$font-size-h6: 1.4rem;
+$font-size-h1: 3.2rem;
+$font-size-h2: 2.4rem;
+$font-size-h3: 1.8rem;
+$font-size-h4: 1.6rem;
+$font-size-h5: 1.4rem;
+$font-size-h6: 1.2rem;
 $font-size-large: 1.2rem;
 $font-size-normal: 1rem;
 $font-size-small: 0.8rem;
 
 // 行高
-$line-height-block: 1rem;
-$line-height-inline: 0.6rem;
+$line-height-large: 0.8rem;
+$line-height-normal: 0.6rem;
+$line-height-small: 0.4rem;
 
 // 边距
-$edge-base: 0.2rem;
-$edge-space: 0.4rem;
-$edge-block: 0.8rem;
 $edge-header: 1.2rem;
+$edge-block: 0.8rem;
+$edge-inline: 0.6rem;
+$edge-space: 0.4rem;
+$edge-base: 0.2rem;
 
 // 圆角
 $radius-small: 0.2rem;

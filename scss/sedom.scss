@@ -1,7 +1,7 @@
 @import 'bases/variable';
-@import 'bases/global';
 @import 'bases/layout';
 @import 'bases/color';
+@import 'bases/font';
 
 @import 'components/header';
 @import 'components/paragraph';
@@ -13,7 +13,9 @@
 @import 'components/table';
 @import 'components/media';
 
-@import 'utilities/anime';
+@import 'utilities/class';
 @import 'utilities/theme';
+@import 'utilities/anime';
+@import 'utilities/scroll';
 
 @import 'themes/dark';

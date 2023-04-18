@@ -1,22 +1,7 @@
-.center {
-  text-align: center;
-}
 
-.left {
-  float: left;
-}
+body {
+  padding: $global-padding;
+  min-width: $global-min-width;
+  max-width: $global-max-width;
 
-.right {
-  float: right;
-}
-
-.space {
-  > * {
-    margin-right: $edge-space;
-    margin-left: $edge-space;
-  }
-  > a {
-    margin-right: $edge-block;
-    margin-left: $edge-block;
-  }
 }

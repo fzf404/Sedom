@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  width: $global-scroll;
+  height: $global-scroll;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: $global-scroll-radius;
+}
+
+code::-webkit-scrollbar {
+  width: $global-scroll - 0.2rem;
+  height: $global-scroll - 0.2rem;
+}

@@ -11,8 +11,8 @@ button {
 
   background-color: $color-gray;
   padding: $edge-space $edge-block;
-  font-size: $font-size-large;
-  line-height: $font-size-large + $line-height-inline;
+  font-size: $font-size-normal;
+  line-height: $font-size-normal + $line-height-normal;
 
   &:hover {
     opacity: 1;

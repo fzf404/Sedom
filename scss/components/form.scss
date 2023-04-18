@@ -1,6 +1,6 @@
 form {
   margin: $edge-block 0;
-  line-height: $font-size-large + $line-height-block * 2 + $line-height-inline;
+  line-height: $font-size-large + $line-height-large * 4;
 
   button {
     margin: 0 $edge-space;
@@ -14,16 +14,16 @@ input {
 }
 
 label {
-  font-size: $font-size-large;
+  font-size: $font-size-normal;
 }
 
 input {
-  border: $edge-base solid;
+  border: $border-normal solid;
   border-radius: $radius-normal;
-  padding: $edge-space + 0.1rem;
+  padding: $edge-space;
 
-  font-size: $font-size-normal + 0.1rem;
-  font-family: monospace, sans-serif;
+  font-size: $font-size-normal;
+  font-family: monospace;
 
   &:focus {
     outline: none;

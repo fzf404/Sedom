@@ -1,5 +1,6 @@
 code {
   display: block;
+  position: relative;
   box-sizing: border-box;
 
   margin: $edge-header 0;
@@ -13,9 +14,30 @@ code {
     display: block;
 
     margin: 0;
-    min-height: $font-size-small + $line-height-inline;
+    min-height: $font-size-small + $line-height-small;
 
     font-size: $font-size-small;
-    line-height: $font-size-small + $line-height-inline;
+    line-height: $font-size-small + $line-height-normal;
   }
 }
+
+// code::after {
+//   display: block;
+
+//   position: absolute;
+//   top: $edge-space;
+//   right: $edge-inline;
+
+//   cursor: pointer;
+//   margin: 0;
+//   padding: 0;
+//   content: 'Copy';
+//   color: $color-gray;
+
+//   font-size: $font-size-small;
+//   line-height: $font-size-small + $line-height-small;
+
+//   &:hover {
+//     color: $color-light;
+//   }
+// }

@@ -1,0 +1,27 @@
+.protect {
+  cursor: default;
+  user-select: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.space {
+  > * {
+    margin-right: $edge-space;
+    margin-left: $edge-space;
+  }
+  > a {
+    margin-right: $edge-block;
+    margin-left: $edge-block;
+  }
+}

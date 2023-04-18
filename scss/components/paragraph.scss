@@ -1,15 +1,24 @@
 p {
   margin: $edge-block 0;
+  font-size: $font-size-normal;
+  line-height: $font-size-normal + $line-height-normal;
+}
+
+p.large {
   font-size: $font-size-large;
-  line-height: $font-size-large + $line-height-block;
+  line-height: $font-size-large + $line-height-large;
+}
+
+p.small {
+  font-size: $font-size-small;
+  line-height: $font-size-small + $line-height-small;
 }
 
 small {
-  display: block;
-  margin: $edge-block 0;
+  display: inline-block;
+  margin: 0;
 
-  font-size: $font-size-normal;
-  line-height: $font-size-normal + $line-height-inline;
+  font-size: $font-size-small;
 }
 
 span,

@@ -17,12 +17,12 @@ table {
   th {
     border-bottom: $border-normal solid;
     font-size: $font-size-large;
-    line-height: $font-size-large + $line-height-inline;
+    line-height: $font-size-large + $line-height-small;
   }
 
   td {
     border-top: $border-small solid;
     font-size: $font-size-normal;
-    line-height: $font-size-normal + $line-height-inline;
+    line-height: $font-size-normal + $line-height-small;
   }
 }
