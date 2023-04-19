@@ -302,7 +302,7 @@ hr {
 }
 
 p {
-  margin: 0.8rem 0;
+  margin: 0.6rem 0;
   font-size: 1rem;
   line-height: 1.6rem;
 }
@@ -353,7 +353,7 @@ a {
   position: relative;
   cursor: pointer;
   margin: 0.2rem 0.6rem;
-  padding: 0.4rem 0.2rem;
+  padding: 0.4rem;
   text-decoration: none;
 }
 a::after {
@@ -385,7 +385,7 @@ button {
   border: none;
   border-radius: 0.4rem;
   background-color: #868e96;
-  padding: 0.4rem 0.6rem;
+  padding: 0.4rem 0.8rem;
   font-size: 1rem;
   line-height: 1.6rem;
 }
@@ -443,7 +443,7 @@ input {
   border-radius: 0.4rem;
   padding: 0.4rem;
   font-size: 1rem;
-  font-family: monospace;
+  font-family: Menlo, Consolas, Monaco, monospace;
 }
 input:focus {
   outline: none;
@@ -452,7 +452,7 @@ input:focus {
 table {
   border-collapse: collapse;
   background-color: transparent;
-  min-width: 80%;
+  min-width: 60%;
 }
 table th,
 table td {
