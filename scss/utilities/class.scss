@@ -17,11 +17,9 @@
 
 .space {
   > * {
-    margin-right: $edge-space;
-    margin-left: $edge-space;
+    margin: $edge-base $edge-space;
   }
   > a {
-    margin-right: $edge-block;
-    margin-left: $edge-block;
+    margin: $edge-space $edge-block;
   }
 }

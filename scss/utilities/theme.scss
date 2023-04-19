@@ -8,9 +8,9 @@
   border-radius: $radius-circle;
   padding: 0;
 
-  width: $font-size-h6 + $line-height-large * 2;
-  height: $font-size-h6 + $line-height-large * 2;
-  font-size: $font-size-h6;
+  width: $font-size-large + $line-height-large * 2;
+  height: $font-size-large + $line-height-large * 2;
+  font-size: $font-size-large;
 }
 
 [data-theme='dark'] {
