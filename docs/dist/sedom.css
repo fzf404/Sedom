@@ -380,7 +380,7 @@ button {
   display: inline-block;
   opacity: 0.6;
   cursor: pointer;
-  margin: 0.4rem 0.2rem;
+  margin: 0.2rem;
   outline: none;
   border: none;
   border-radius: 0.4rem;
@@ -474,6 +474,9 @@ table td {
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
+table a {
+  padding: 0.2rem;
+}
 
 audio {
   display: block;
@@ -498,10 +501,13 @@ audio {
 }
 
 .space > * {
-  margin: 0.2rem 0.4rem;
+  margin: 0.4rem;
 }
 .space > a {
   margin: 0.4rem 0.8rem;
+}
+.space > button {
+  margin: 0.6rem 0.4rem;
 }
 
 .theme {
