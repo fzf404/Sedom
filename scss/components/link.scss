@@ -3,8 +3,8 @@ a {
   position: relative;
   cursor: pointer;
 
-  margin: $edge-base $edge-space + $edge-base;
-  padding:  $edge-space;
+  margin: $edge-base $edge-inline;
+  padding: $edge-space $edge-base;
   text-decoration: none;
 
   &::after {
@@ -17,7 +17,7 @@ a {
 
     opacity: 0.4;
     z-index: -1;
-    
+
     border-radius: $radius-normal;
     background-color: $color-middle;
     content: '';

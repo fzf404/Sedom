@@ -5,7 +5,7 @@ code {
 
   margin: $edge-header 0;
   border-radius: $radius-normal;
-  padding: $edge-space + $edge-base $edge-block;
+  padding: $edge-inline $edge-block;
 
   overflow: auto;
 

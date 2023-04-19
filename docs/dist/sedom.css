@@ -281,17 +281,17 @@ h3 {
 
 h4 {
   font-size: 1.6rem;
-  line-height: 2.4rem;
+  line-height: 2.2rem;
 }
 
 h5 {
   font-size: 1.4rem;
-  line-height: 2.2rem;
+  line-height: 2rem;
 }
 
 h6 {
   font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 1.8rem;
 }
 
 hr {
@@ -319,7 +319,6 @@ p.small {
 
 small {
   display: inline-block;
-  margin: 0;
   font-size: 0.8rem;
 }
 
@@ -354,7 +353,7 @@ a {
   position: relative;
   cursor: pointer;
   margin: 0.2rem 0.6rem;
-  padding: 0.4rem;
+  padding: 0.4rem 0.2rem;
   text-decoration: none;
 }
 a::after {
@@ -467,13 +466,16 @@ table td a {
 }
 table th {
   border-bottom: 0.2rem solid;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6rem;
 }
 table td {
   border-top: 0.1rem solid;
-  font-size: 1rem;
-  line-height: 1.4rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+table a {
+  padding: 0.4rem;
 }
 
 audio {
@@ -613,6 +615,7 @@ audio {
 }
 [data-theme=light] pre,
 [data-theme=light] code,
+[data-theme=light] aside,
 [data-theme=light] label,
 [data-theme=light] input,
 [data-theme=light] small,
@@ -640,12 +643,11 @@ audio {
 [data-theme=light] button.white, [data-theme=light] button.light {
   color: #868e96;
 }
-[data-theme=light] abbr[title] {
-  text-decoration-color: #c8cdd1;
-}
 [data-theme=light] aside {
   border-color: #c8cdd1;
-  color: #868e96;
+}
+[data-theme=light] abbr[title] {
+  text-decoration-color: #c8cdd1;
 }
 [data-theme=light] audio::-webkit-media-controls-panel {
   background-color: #e9ecef;

@@ -32,6 +32,7 @@ tr {
 
 pre,
 code,
+aside,
 label,
 input,
 small,
@@ -67,13 +68,12 @@ button {
   }
 }
 
-abbr[title] {
-  text-decoration-color: $color-middle;
-}
-
 aside {
   border-color: $color-middle;
-  color: $color-gray;
+}
+
+abbr[title] {
+  text-decoration-color: $color-middle;
 }
 
 audio::-webkit-media-controls-panel {

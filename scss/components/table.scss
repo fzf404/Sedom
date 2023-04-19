@@ -16,13 +16,17 @@ table {
 
   th {
     border-bottom: $border-normal solid;
-    font-size: $font-size-large;
-    line-height: $font-size-large + $line-height-small;
+    font-size: $font-size-normal;
+    line-height: $font-size-normal + $line-height-normal;
   }
 
   td {
     border-top: $border-small solid;
-    font-size: $font-size-normal;
-    line-height: $font-size-normal + $line-height-small;
+    font-size: $font-size-small;
+    line-height: $font-size-small + $line-height-small;
+  }
+
+  a {
+    padding: $edge-space;
   }
 }
