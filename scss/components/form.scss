@@ -23,7 +23,7 @@ input {
   padding: $edge-space;
 
   font-size: $font-size-normal;
-  font-family: monospace;
+  font-family: $font-family-mono;
 
   &:focus {
     outline: none;
