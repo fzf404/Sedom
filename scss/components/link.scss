@@ -4,7 +4,7 @@ a {
   cursor: pointer;
 
   margin: $edge-base $edge-space + $edge-base;
-  padding: $edge-base $edge-space;
+  padding:  $edge-space;
   text-decoration: none;
 
   &::after {

@@ -1,5 +1,4 @@
 ::selection {
-  -webkit-text-fill-color: $color-white;
   background: $color-gray;
   color: $color-white;
 }
@@ -18,13 +17,13 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: $color-black;
 }
 
+h4,
+h5,
+h6,
 a,
 p,
 tr {
@@ -35,7 +34,8 @@ pre,
 code,
 label,
 input,
-small {
+small,
+p.small {
   color: $color-gray;
 }
 
@@ -49,21 +49,21 @@ code {
   background-color: $color-light;
 }
 
-button {
-  color: $color-white;
-
-  &.white,
-  &.light {
-    color: $color-gray;
-  }
-}
-
 input {
   border-color: $color-light;
   background-color: $color-light;
 
   &:focus {
     border-color: $color-middle;
+  }
+}
+
+button {
+  color: $color-white;
+
+  &.white,
+  &.light {
+    color: $color-gray;
   }
 }
 

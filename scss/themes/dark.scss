@@ -1,5 +1,4 @@
 ::selection {
-  -webkit-text-fill-color: $color-white;
   background: $color-gray;
   color: $color-white;
 }
@@ -18,13 +17,13 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: $color-white;
 }
 
+h4,
+h5,
+h6,
 a,
 p,
 tr {
@@ -35,6 +34,7 @@ pre,
 code,
 label,
 input,
+small,
 p.small {
   color: $color-middle;
 }
