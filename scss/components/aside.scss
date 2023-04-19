@@ -5,7 +5,7 @@ aside {
   border-left: $border-normal solid;
   padding-left: $edge-block;
 
-  width: 30%;
+  width: $aside-width;
   font-size: $font-size-small;
   line-height: $font-size-small + $line-height-small;
 }

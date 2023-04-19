@@ -17,9 +17,14 @@
 
 .space {
   > * {
-    margin: $edge-base $edge-space;
+    margin: $edge-space;
   }
+
   > a {
     margin: $edge-space $edge-block;
+  }
+
+  > button {
+    margin: $edge-inline $edge-space;
   }
 }
