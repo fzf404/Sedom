@@ -3,6 +3,7 @@ body {
 }
 
 *,
+*::before,
 *::after {
   font-weight: $global-font-weight;
 }
