@@ -29,15 +29,15 @@ button.light {
 }
 
 span.middle {
-  color: #c8cdd1;
+  color: #ced4da;
 }
 
 a.middle::after {
-  background-color: #c8cdd1;
+  background-color: #ced4da;
 }
 
 button.middle {
-  background-color: #c8cdd1;
+  background-color: #ced4da;
 }
 
 span.gray {
@@ -365,7 +365,7 @@ a::after {
   opacity: 0.4;
   z-index: -1;
   border-radius: 0.4rem;
-  background-color: #c8cdd1;
+  background-color: #ced4da;
   content: "";
 }
 a:hover::after {
@@ -385,7 +385,7 @@ button {
   border: none;
   border-radius: 0.4rem;
   background-color: #868e96;
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 0.6rem;
   font-size: 1rem;
   line-height: 1.6rem;
 }
@@ -474,9 +474,6 @@ table td {
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
-table a {
-  padding: 0.4rem;
-}
 
 audio {
   display: block;
@@ -501,12 +498,10 @@ audio {
 }
 
 .space > * {
-  margin-right: 0.4rem;
-  margin-left: 0.4rem;
+  margin: 0.2rem 0.4rem;
 }
 .space > a {
-  margin-right: 0.8rem;
-  margin-left: 0.8rem;
+  margin: 0.4rem 0.8rem;
 }
 
 .theme {
@@ -522,6 +517,7 @@ audio {
 }
 
 [data-theme=dark] ::selection {
+  -webkit-text-fill-color: #f8f9fa;
   background: #868e96;
   color: #f8f9fa;
 }
@@ -553,7 +549,7 @@ audio {
 [data-theme=dark] input,
 [data-theme=dark] small,
 [data-theme=dark] p.small {
-  color: #c8cdd1;
+  color: #ced4da;
 }
 [data-theme=dark] th,
 [data-theme=dark] td,
@@ -574,7 +570,7 @@ audio {
   color: #f8f9fa;
 }
 [data-theme=dark] button.middle, [data-theme=dark] button.white, [data-theme=dark] button.light {
-  color: #212529;
+  color: #495057;
 }
 [data-theme=dark] abbr[title] {
   text-decoration-color: #868e96;
@@ -584,15 +580,16 @@ audio {
   color: #868e96;
 }
 [data-theme=dark] audio::-webkit-media-controls-panel {
-  background-color: #c8cdd1;
+  background-color: #ced4da;
 }
 
 [data-theme=light] ::selection {
+  -webkit-text-fill-color: #f8f9fa;
   background: #868e96;
   color: #f8f9fa;
 }
 [data-theme=light] ::-webkit-scrollbar-thumb {
-  background-color: #c8cdd1;
+  background-color: #ced4da;
 }
 [data-theme=light] .theme {
   background: #e9ecef;
@@ -635,7 +632,7 @@ audio {
   background-color: #e9ecef;
 }
 [data-theme=light] input:focus {
-  border-color: #c8cdd1;
+  border-color: #ced4da;
 }
 [data-theme=light] button {
   color: #f8f9fa;
@@ -643,11 +640,14 @@ audio {
 [data-theme=light] button.white, [data-theme=light] button.light {
   color: #868e96;
 }
+[data-theme=light] button.middle {
+  color: #495057;
+}
 [data-theme=light] aside {
-  border-color: #c8cdd1;
+  border-color: #ced4da;
 }
 [data-theme=light] abbr[title] {
-  text-decoration-color: #c8cdd1;
+  text-decoration-color: #ced4da;
 }
 [data-theme=light] audio::-webkit-media-controls-panel {
   background-color: #e9ecef;
@@ -708,6 +708,7 @@ code::-webkit-scrollbar {
 }
 
 ::selection {
+  -webkit-text-fill-color: #f8f9fa;
   background: #868e96;
   color: #f8f9fa;
 }
@@ -745,7 +746,7 @@ label,
 input,
 small,
 p.small {
-  color: #c8cdd1;
+  color: #ced4da;
 }
 
 th,
@@ -770,7 +771,7 @@ button {
   color: #f8f9fa;
 }
 button.middle, button.white, button.light {
-  color: #212529;
+  color: #495057;
 }
 
 abbr[title] {
@@ -783,5 +784,5 @@ aside {
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: #c8cdd1;
+  background-color: #ced4da;
 }
