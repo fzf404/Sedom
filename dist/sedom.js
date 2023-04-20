@@ -52,7 +52,6 @@
           element.innerText = element.getAttribute('title');
           element.setAttribute('title', text);
         });
-
       }
     });
   };
@@ -84,7 +83,7 @@
     });
   };
 
-  var version = "0.7.2";
+  var version = "0.7.3";
 
   const initVersion = () => {
     console.log(
