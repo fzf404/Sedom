@@ -1,17 +1,13 @@
 table {
   border-collapse: collapse;
   background-color: transparent;
-  min-width: 60%;
+  min-width: $table-width;
 
   th,
   td {
     border-radius: $radius-small;
     padding: $edge-block;
     text-align: center;
-
-    a {
-      margin: 0;
-    }
   }
 
   th {
@@ -27,6 +23,7 @@ table {
   }
 
   a {
+    margin: 0;
     padding: $edge-base;
   }
 }

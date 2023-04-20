@@ -15,7 +15,6 @@ export const initHover = () => {
         element.innerText = element.getAttribute('title')
         element.setAttribute('title', text)
       })
-
     }
   })
 }
