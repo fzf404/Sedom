@@ -8,22 +8,22 @@ export default {
   output: [
     {
       file: 'dist/sedom.js',
-      format: 'iife'
+      format: 'iife',
     },
     {
       file: 'docs/dist/sedom.js',
-      format: 'iife'
-    }
+      format: 'iife',
+    },
   ],
   plugins: [
     json(),
     resolve(),
     commonjs(),
     sass({
-      output: 'dist/sedom.css'
+      output: 'dist/sedom.css',
     }),
     sass({
-      output: 'docs/dist/sedom.css'
-    })
-  ]
+      output: 'docs/dist/sedom.css',
+    }),
+  ],
 }
