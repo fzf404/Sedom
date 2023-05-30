@@ -19,8 +19,8 @@
     document.querySelectorAll('code').forEach((element) => {
       // 获取代码内容
       const code = element.innerHTML
-        .replace(/^\n/, '')
-        .replace(/\n\s.$/, '')
+        .replace(/^\s*\n/, '')
+        .replace(/\n\s*$/, '')
         .split('\n');
       // 获取代码缩进
       const space = getSpaceLength(code[0]);
