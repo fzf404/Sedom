@@ -4,6 +4,10 @@
   transition: all 150ms ease-in-out;
 }
 
+html {
+  transition: none;
+}
+
 .jump {
   display: inline-block;
   animation: jump 1s infinite;
