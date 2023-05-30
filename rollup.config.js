@@ -4,15 +4,17 @@ import resolve from '@rollup/plugin-node-resolve'
 import sass from 'rollup-plugin-sass'
 
 export default {
-  input: './build.js',
+  input: './index.js',
   output: [
     {
       file: 'dist/sedom.js',
       format: 'iife',
+      name: 'Sedom',
     },
     {
       file: 'docs/dist/sedom.js',
       format: 'iife',
+      name: 'Sedom',
     },
   ],
   plugins: [

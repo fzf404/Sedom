@@ -1,4 +1,4 @@
-(function () {
+var Sedom = (function (exports) {
   'use strict';
 
   // 获取空格长度
@@ -93,19 +93,25 @@
     );
   };
 
-  const initDOM = () => {
+  const update = () => {
     initTheme();
     initCode();
     initHover();
-    initVersion();
   };
 
-  // 防止重复初始化
-  if (!window.Sedom) {
-    // 全局注册
-    window.Sedom = { getTheme, toggleTheme };
-    // 初始化Sedom
-    document.addEventListener('DOMContentLoaded', initDOM);
-  }
+  const init = () => {
+    initVersion();
+    document.addEventListener('DOMContentLoaded', update);
+  };
 
-})();
+  init();
+
+  exports.getTheme = getTheme;
+  exports.init = init;
+  exports.toggleTheme = toggleTheme;
+
+  Object.defineProperty(exports, '__esModule', { value: true });
+
+  return exports;
+
+})({});
