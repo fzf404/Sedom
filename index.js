@@ -1,4 +1,7 @@
-import { initDOM } from './script/sedom'
-import { getTheme, toggleTheme } from './script/theme'
+import { init } from './script/sedom'
+import './scss/sedom.scss'
 
-export default { initDOM, getTheme, toggleTheme }
+init()
+
+export { getTheme, toggleTheme } from './script/theme'
+export { init }

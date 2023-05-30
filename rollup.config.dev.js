@@ -6,11 +6,12 @@ import sass from 'rollup-plugin-sass'
 import serve from 'rollup-plugin-serve'
 
 export default {
-  input: './build.js',
+  input: './index.js',
   output: [
     {
       file: 'docs/dist/sedom.js',
       format: 'iife',
+      name: 'Sedom',
     },
   ],
   plugins: [
