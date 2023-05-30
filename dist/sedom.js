@@ -109,6 +109,7 @@ var Sedom = (function (exports) {
   exports.getTheme = getTheme;
   exports.init = init;
   exports.toggleTheme = toggleTheme;
+  exports.update = update;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
