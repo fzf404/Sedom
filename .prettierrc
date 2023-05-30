@@ -4,6 +4,5 @@
   "printWidth": 120,
   "singleQuote": true,
   "bracketSameLine": true,
-  "trailingComma": "none",
   "plugins": ["prettier-plugin-css-order"]
 }

@@ -10,20 +10,20 @@ export default {
   output: [
     {
       file: 'docs/dist/sedom.js',
-      format: 'iife'
-    }
+      format: 'iife',
+    },
   ],
   plugins: [
     json(),
     resolve(),
     commonjs(),
     sass({
-      output: 'docs/dist/sedom.css'
+      output: 'docs/dist/sedom.css',
     }),
     serve({
       port: '3000',
-      contentBase: 'docs'
+      contentBase: 'docs',
     }),
-    livereload({ watch: ['docs'] })
-  ]
+    livereload({ watch: ['docs'] }),
+  ],
 }
