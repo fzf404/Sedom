@@ -12,6 +12,10 @@ export default {
       name: 'Sedom',
     },
     {
+      file: 'dist/sedom.esm.js',
+      format: 'esm',
+    },
+    {
       file: 'docs/dist/sedom.js',
       format: 'iife',
       name: 'Sedom',
