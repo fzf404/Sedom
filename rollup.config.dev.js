@@ -1,10 +1,11 @@
-import commonjs from '@rollup/plugin-commonjs'
-import json from '@rollup/plugin-json'
-import resolve from '@rollup/plugin-node-resolve'
 import livereload from 'rollup-plugin-livereload'
 import sass from 'rollup-plugin-sass'
 import serve from 'rollup-plugin-serve'
+import commonjs from '@rollup/plugin-commonjs'
+import json from '@rollup/plugin-json'
+import resolve from '@rollup/plugin-node-resolve'
 
+/** @type {import('rollup').RollupOptions'} */
 export default {
   input: './index.js',
   output: [

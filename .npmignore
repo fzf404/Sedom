@@ -1,8 +1,0 @@
-docs
-
-build.js
-rollup.config.js
-rollup.config.dev.js
-
-.gitignore
-.prettierrc

@@ -1,24 +1,24 @@
+import sass from 'rollup-plugin-sass'
 import commonjs from '@rollup/plugin-commonjs'
 import json from '@rollup/plugin-json'
 import resolve from '@rollup/plugin-node-resolve'
-import sass from 'rollup-plugin-sass'
 
 export default {
   input: './index.js',
   output: [
     {
-      file: 'dist/sedom.js',
-      format: 'iife',
       name: 'Sedom',
+      format: 'iife',
+      file: 'dist/sedom.js',
     },
     {
       file: 'dist/sedom.esm.js',
       format: 'esm',
     },
     {
-      file: 'docs/dist/sedom.js',
-      format: 'iife',
       name: 'Sedom',
+      format: 'iife',
+      file: 'docs/dist/sedom.js',
     },
   ],
   plugins: [

@@ -1,4 +1,5 @@
 import { init } from './src/sedom'
+
 import './style/sedom.scss'
 
 export { getTheme, toggleTheme } from './src/theme'
