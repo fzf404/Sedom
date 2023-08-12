@@ -3,3 +3,10 @@
 
 # depend
 node_modules
+
+# build
+dist
+
+# cache
+.eslintcache
+.stylelintcache
