@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Convert to HTML Code</title>
+    <script>
+      function convertToHTML() {
+        // 获取输入框中的内容
+        var input = document.getElementById('input').value
+
+        // 将内容按行分割成数组
+        var lines = input.split('\n')
+
+        // 创建一个新的数组，用于存放转化后的每行HTML code
+        var output = []
+
+        // 遍历每行内容，转化为HTML code并存入新数组
+        for (var i = 0; i < lines.length; i++) {
+          var line = lines[i]
+
+          // 转义特殊字符
+          line = line.replace(/&/g, '&amp;')
+          line = line.replace(/</g, '&lt;')
+          line = line.replace(/>/g, '&gt;')
+
+          // 添加pre标签并存入新数组
+          output.push('  <pre>' + line + '</pre>')
+        }
+
+        // 将结果输出到页面上的输出框中
+        document.getElementById('output').value =
+          '<code>\n' + output.join('\n') + '\n</code>'
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Convert to HTML Code</h1>
+
+    <textarea
+      id="input"
+      rows="16"
+      cols="64"
+      placeholder="输入多行代码"
+    ></textarea>
+    <br />
+    <button onclick="convertToHTML()">转化为HTML Code</button>
+    <br />
+    <textarea id="output" rows="16" cols="64"></textarea>
+  </body>
+</html>
