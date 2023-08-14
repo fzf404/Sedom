@@ -16,7 +16,6 @@ p.small {
 
 small {
   display: inline-block;
-
   font-size: $font-size-small;
 }
 
@@ -27,7 +26,7 @@ abbr {
 
 abbr {
   display: inline-block;
-  margin: 0 $edge-space;
+  margin: 0;
   font-style: italic;
 
   &[title] {

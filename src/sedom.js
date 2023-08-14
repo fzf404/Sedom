@@ -4,9 +4,9 @@ import { initTheme } from './theme'
 import { initVersion } from './version'
 
 export const update = () => {
-  initTheme()
   initCode()
   initHover()
+  initTheme()
 }
 
 export const init = () => {

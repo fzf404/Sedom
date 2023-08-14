@@ -1,23 +1,29 @@
-// 全局
 $global-padding: 10vh 10vw;
 $global-min-width: 28rem;
 $global-max-width: 36rem;
-
-$global-font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif,
-  BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
-$global-font-weight: normal;
-
 $global-scroll: 0.6rem;
 $global-scroll-radius: 0.4rem;
-
-// 颜色
+$global-font-weight: normal;
+$global-font-family: -apple-system,
+  system-ui,
+  segoe ui,
+  roboto,
+  ubuntu,
+  cantarell,
+  noto sans,
+  sans-serif,
+  blinkmacsystemfont,
+  helvetica neue,
+  pingfang sc,
+  hiragino sans gb,
+  microsoft yahei,
+  arial;
 $color-white: #f8f9fa;
 $color-light: #e9ecef;
 $color-middle: #c8cdd1;
 $color-gray: #868e96;
 $color-dark: #495057;
 $color-black: #212529;
-
 $color-red: #f03e3e;
 $color-orange: #f76707;
 $color-yellow: #f59f00;
@@ -30,8 +36,6 @@ $color-indigo: #4263eb;
 $color-violet: #7048e8;
 $color-purple: #ae3ec9;
 $color-pink: #d6336c;
-
-// 字体
 $font-size-h1: 3.2rem;
 $font-size-h2: 2.4rem;
 $font-size-h3: 1.8rem;
@@ -42,32 +46,24 @@ $font-size-large: 1.2rem;
 $font-size-normal: 1rem;
 $font-size-small: 0.8rem;
 $font-size-code: 0.6rem;
-
-$font-family-mono: Menlo, Monaco, Consolas, Courier New, monospace;
-
-// 行高
+$font-family-mono: menlo,
+  monaco,
+  consolas,
+  courier new,
+  monospace;
 $line-height-large: 0.8rem;
 $line-height-normal: 0.6rem;
 $line-height-small: 0.4rem;
-
-// 边距
 $edge-header: 1.2rem;
 $edge-block: 0.8rem;
 $edge-inline: 0.6rem;
 $edge-space: 0.4rem;
 $edge-base: 0.2rem;
-
-// 圆角
 $radius-large: 0.6rem;
 $radius-normal: 0.4rem;
 $radius-small: 0.2rem;
-
 $radius-circle: 50%;
-
-// 边框
 $border-normal: 0.2rem;
 $border-small: 0.1rem;
-
-// 元素
 $aside-width: 30%;
 $table-width: 60%;

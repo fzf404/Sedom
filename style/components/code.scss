@@ -2,27 +2,23 @@ code {
   display: block;
   position: relative;
   box-sizing: border-box;
-
   margin: $edge-header 0;
   border-radius: $radius-normal;
   padding: $edge-inline $edge-block;
-
   overflow: auto;
   white-space: pre;
 
   pre {
     display: block;
-
     margin: 0;
     min-height: $font-size-small + $line-height-small;
-
     font-size: $font-size-code;
     line-height: $font-size-small + $line-height-normal;
-
     font-family: $font-family-mono;
   }
 }
 
+// TODO - Copy to clipboard
 // code::after {
 //   display: block;
 

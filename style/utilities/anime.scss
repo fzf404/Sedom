@@ -18,6 +18,7 @@ html {
       transform: translateY(-20%);
       animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
     }
+
     50% {
       transform: translateY(10%);
       animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
@@ -35,6 +36,7 @@ html {
       transform: rotate(-10deg);
       animation-timing-function: ease-in-out;
     }
+
     50% {
       transform: rotate(20deg);
       animation-timing-function: ease-in-out;
