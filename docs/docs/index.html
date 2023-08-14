@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
@@ -20,93 +20,146 @@
 
   <body>
     <h1>Sedom</h1>
+    <!-- Quick Start -->
     <h4>快速开始</h4>
+    <!-- Using Sedom from CDN -->
     <h6>使用 CDN 加载</h6>
+    <!-- prettier-ignore -->
     <code>
-      <link rel="stylesheet" href="https://cdn.fzf404.art/sedom/dist/sedom.min.css" />
-      <script src="https://cdn.fzf404.art/sedom/dist/sedom.min.js"></script>
+      <pre>&lt;link rel="stylesheet" href="https://cdn.fzf404.art/sedom/dist/sedom.css"/&gt;</pre>
+      <pre>&lt;script src="https://cdn.fzf404.art/sedom/dist/sedom.js"&gt;&lt;/script&gt;</pre>
     </code>
+    <!-- Using Sedom with NPM -->
     <h6>使用 NPM 安装</h6>
-    <code>npm i sedom</code>
+    <!-- prettier-ignore -->
+    <code>
+      <pre>npm i sedom</pre>
+    </code>
+    <!-- Using Sedom in project -->
     <p>在项目中使用</p>
-    <code> import Sedom from 'sedom' import 'sedom/dist/sedom.css' Sedom.initDOM() </code>
+    <!-- prettier-ignore -->
+    <code>
+      <pre>import Sedom from 'sedom'</pre>
+      <pre>import 'sedom/dist/sedom.css'</pre>
+      <pre></pre>
+      <pre>Sedom.initDOM()</pre>
+    </code>
     <hr />
+    <!-- Basic style -->
     <h3>基础样式</h3>
     <hr />
+    <!-- Header -->
     <h5>标题</h5>
+    <!-- prettier-ignore -->
     <code>
-      <h1>一级标题</h1>
-      <h2>二级标题</h2>
-      <h3>三级标题</h3>
-      <h4>四级标题</h4>
-      <h5>五级标题</h5>
-      <h6>六级标题</h6>
+      <pre>&lt;h1&gt;一级标题&lt;/h1&gt;</pre>
+      <pre>&lt;h2&gt;二级标题&lt;/h2&gt;</pre>
+      <pre>&lt;h3&gt;三级标题&lt;/h3&gt;</pre>
+      <pre>&lt;h4&gt;四级标题&lt;/h4&gt;</pre>
+      <pre>&lt;h5&gt;五级标题&lt;/h5&gt;</pre>
+      <pre>&lt;h6&gt;六级标题&lt;/h6&gt;</pre>
     </code>
+    <!-- Primary Header -->
     <h1>一级标题</h1>
+    <!-- Secondary Header -->
     <h2>二级标题</h2>
+    <!-- Tertiary Header -->
     <h3>三级标题</h3>
+    <!-- Quaternary Header -->
     <h4>**级标题</h4>
+    <!-- Quinary Header -->
     <h5>五级标题</h5>
+    <!-- Senary Header -->
     <h6>**级标题</h6>
     <hr />
+    <!-- Paragraph -->
     <h5>文本</h5>
+    <!-- prettier-ignore -->
     <code>
-      <p class="large">扬前端之帆，起样式之航，打赢极简样式库攻坚战。</p>
-      <p>
-        新时代来临，我们的极简样式库实现了历史跨越性发展，样式得到切实巩固和提高，文档发生深刻变化。
-        <small>注：此处的历史跨越式发展含有夸大成分。</small>
-      </p>
-      <p class="small">
-        要实现极简样式库的发展，必须在发展中借鉴成就。建章立制，积极推进极简样式库管理制度化；建体立系，积极推进极简样式库督查正常化；注质重量，积极推进极简样式库工作规范化。
-      </p>
-      <code>
-        求真务实，抓好极简样式库调研工作。 紧跟进度，抓好极简样式库督促工作。 严格要求，做好极简样式库服务工作。
-      </code>
+      <pre>&lt;p class="large"&gt;扬前端之帆，起样式之航，打赢极简样式库攻坚战。&lt;/p&gt;</pre>
+      <pre>&lt;p&gt;</pre>
+      <pre>  新时代来临，我们的极简样式库实现了历史跨越性发展，样式得到切实巩固和提高，文档发生深刻变化。</pre>
+      <pre>  &lt;small&gt;注：此处的历史跨越式发展含有夸大成分。&lt;/small&gt;</pre>
+      <pre>&lt;/p&gt;</pre>
+      <pre>&lt;p class="small"&gt;</pre>
+      <pre>  要实现极简样式库的发展，必须在发展中借鉴成就。建章立制，积极推进极简样式库管理制度化；建体立系，积极推进极简样式库督查正常化；注质重量，积极推进极简样式库工作规范化。</pre>
+      <pre>&lt;/p&gt;</pre>
+      <pre>&lt;code&gt;</pre>
+      <pre>  &lt;pre&gt;求真务实，抓好极简样式库调研工作。&lt;/pre&gt;</pre>
+      <pre>  &lt;pre&gt;紧跟进度，抓好极简样式库督促工作。&lt;/pre&gt;</pre>
+      <pre>  &lt;pre&gt;严格要求，做好极简样式库服务工作。&lt;/pre&gt;</pre>
+      <pre>&lt;/code&gt;</pre>
     </code>
+    <!-- Large Paragraph -->
     <p class="large">扬前端之帆，起样式之航，打赢极简样式库攻坚战。</p>
+    <!-- Normal Paragraph -->
     <p>
       新时代来临，我们的极简样式库实现了历史跨越性发展，样式得到切实巩固和提高，文档发生深刻变化。
       <small>注：此处的历史跨越式发展含有夸大成分。</small>
     </p>
+    <!-- Small Paragraph -->
     <p class="small">
       要实现极简样式库的发展，必须在发展中借鉴成就。建章立制，积极推进极简样式库管理制度化；建体立系，积极推进极简样式库督查正常化；注质重量，积极推进极简样式库工作规范化。
     </p>
+    <!-- Code Paragraph -->
+    <!-- prettier-ignore -->
     <code>
-      求真务实，抓好极简样式库调研工作。 紧跟进度，抓好极简样式库督促工作。 严格要求，做好极简样式库服务工作。
+      <pre>求真务实，抓好极简样式库调研工作。</pre>
+      <pre>紧跟进度，抓好极简样式库督促工作。</pre>
+      <pre>严格要求，做好极简样式库服务工作。</pre>
     </code>
     <hr />
+    <!-- Semantic -->
     <h5>语义化</h5>
+    <!-- prettier-ignore -->
     <code>
-      <p>编写<abbr title="Hyper Text Markup Language">HTML</abbr>代码并获得良好的视觉效果。</p>
-      <aside>注：需使用 Sedom 样式库。</aside>
-      <p>编写<abbr>HTML</abbr>代码并获得良好的视觉效果。</p>
+      <pre>&lt;p&gt;</pre>
+      <pre>  &lt;span&gt;编写&lt;/span&gt;</pre>
+      <pre>  &lt;abbr title="Hyper Text Markup Language"&gt;HTML&lt;/abbr&gt;</pre>
+      <pre>  &lt;span&gt;代码并获得良好的视觉效果。&lt;/span&gt;</pre>
+      <pre>&lt;/p&gt;</pre>
+      <pre>&lt;aside&gt;注：需使用 Sedom 样式库。&lt;/aside&gt;</pre>
+      <pre>&lt;p&gt;</pre>
+      <pre>  &lt;span&gt;编写&lt;/span&gt;</pre>
+      <pre>  &lt;abbr&gt;HTML&lt;/abbr&gt;</pre>
+      <pre>  &lt;span&gt;代码并获得良好的视觉效果。&lt;/span&gt;</pre>
+      <pre>&lt;/p&gt;</pre>
     </code>
-    <p>编写<abbr title="Hyper Text Markup Language">HTML</abbr>代码并获得良好的视觉效果。</p>
+    <p>
+      <span>编写</span>
+      <abbr title="Hyper Text Markup Language">HTML</abbr>
+      <span>代码并获得良好的视觉效果。</span>
+    </p>
     <aside>注：需使用 Sedom 样式库。</aside>
-    <p>编写<abbr>HTML</abbr>代码并获得良好的视觉效果。</p>
+    <p>
+      <span>编写</span>
+      <abbr>HTML</abbr>
+      <span>代码并获得良好的视觉效果。</span>
+    </p>
     <hr />
     <h5>颜色</h5>
+    <!-- prettier-ignore -->
     <code>
-      <span class="white">白色文本</span>
-      <span class="light">浅色文本</span>
-      <span class="middle">中性文本</span>
-      <span class="gray">灰色文本</span>
-      <span class="dark">暗色文本</span>
-      <span class="black">黑色文本</span>
-      <span class="red">红色文本</span>
-      <span class="orange">橙色文本</span>
-      <span class="yellow">黄色文本</span>
-      <span class="lime">黄绿文本</span>
-      <span class="green">绿色文本</span>
-      <span class="teal">蓝绿文本</span>
-      <span class="cyan">青色文本</span>
-      <span class="blue">蓝色文本</span>
-      <span class="indigo">靛青文本</span>
-      <span class="violet">蓝紫文本</span>
-      <span class="purple">紫色文本</span>
-      <span class="pink">粉色文本</span>
-      <span class="rainbow">彩虹文本</span>
-      <span class="rainbow reverse">彩虹文本</span>
+      <pre>&lt;span class="white"&gt;白色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="light"&gt;浅色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="middle"&gt;中性文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="gray"&gt;灰色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="dark"&gt;暗色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="black"&gt;黑色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="red"&gt;红色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="orange"&gt;橙色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="yellow"&gt;黄色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="lime"&gt;黄绿文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="green"&gt;绿色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="teal"&gt;蓝绿文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="cyan"&gt;青色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="blue"&gt;蓝色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="indigo"&gt;靛青文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="violet"&gt;蓝紫文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="purple"&gt;紫色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="pink"&gt;粉色文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="rainbow"&gt;彩虹文本&lt;/span&gt;</pre>
+      <pre>&lt;span class="rainbow reverse"&gt;彩虹文本&lt;/span&gt;</pre>
     </code>
     <p class="space">
       <span class="white">白色文本</span>
@@ -132,26 +185,27 @@
     </p>
     <hr />
     <h5>链接</h5>
+    <!-- prettier-ignore -->
     <code>
-      <a class="white">白色链接</a>
-      <a class="light">浅色链接</a>
-      <a class="middle">中性链接</a>
-      <a class="gray">灰色链接</a>
-      <a class="dark">暗色链接</a>
-      <a class="black">黑色链接</a>
-      <a class="red">红色链接</a>
-      <a class="orange">橙色链接</a>
-      <a class="yellow">黄色链接</a>
-      <a class="lime">黄绿链接</a>
-      <a class="green">绿色链接</a>
-      <a class="teal">蓝绿链接</a>
-      <a class="cyan">青色链接</a>
-      <a class="blue">蓝色链接</a>
-      <a class="indigo">靛青链接</a>
-      <a class="violet">蓝紫链接</a>
-      <a class="purple">紫色链接</a>
-      <a class="rainbow">彩虹链接</a>
-      <a class="rainbow reverse">彩虹链接</a>
+      <pre>&lt;a class="white"&gt;白色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="light"&gt;浅色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="middle"&gt;中性链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="gray"&gt;灰色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="dark"&gt;暗色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="black"&gt;黑色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="red"&gt;红色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="orange"&gt;橙色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="yellow"&gt;黄色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="lime"&gt;黄绿链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="green"&gt;绿色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="teal"&gt;蓝绿链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="cyan"&gt;青色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="blue"&gt;蓝色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="indigo"&gt;靛青链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="violet"&gt;蓝紫链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="purple"&gt;紫色链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="rainbow"&gt;彩虹链接&lt;/a&gt;</pre>
+      <pre>&lt;a class="rainbow reverse"&gt;彩虹链接&lt;/a&gt;</pre>
     </code>
     <p class="space">
       <a class="white">白色链接</a>
@@ -177,29 +231,30 @@
     </p>
     <hr />
     <h5>按钮</h5>
+    <!-- prettier-ignore -->
     <code>
-      <button class="white">白色按钮</button>
-      <button class="light">浅色按钮</button>
-      <button class="middle">中性按钮</button>
-      <button class="gray">灰色按钮</button>
-      <button class="dark">暗色按钮</button>
-      <button class="black">黑色按钮</button>
-      <button class="red">红色按钮</button>
-      <button class="orange">橙色按钮</button>
-      <button class="yellow">黄色按钮</button>
-      <button class="lime">黄绿按钮</button>
-      <button class="green">绿色按钮</button>
-      <button class="teal">蓝绿按钮</button>
-      <button class="cyan">青色按钮</button>
-      <button class="blue">蓝色按钮</button>
-      <button class="indigo">靛青按钮</button>
-      <button class="violet">蓝紫按钮</button>
-      <button class="purple">紫色按钮</button>
-      <button class="pink">粉色按钮</button>
-      <button class="rainbow">彩虹按钮</button>
-      <button class="rainbow reverse">彩虹按钮</button>
-      <button class="orange" disabled>禁用按钮</button>
-      <button class="indigo" disabled>禁用按钮</button>
+      <pre>&lt;button class="white"&gt;白色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="light"&gt;浅色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="middle"&gt;中性按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="gray"&gt;灰色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="dark"&gt;暗色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="black"&gt;黑色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="red"&gt;红色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="orange"&gt;橙色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="yellow"&gt;黄色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="lime"&gt;黄绿按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="green"&gt;绿色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="teal"&gt;蓝绿按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="cyan"&gt;青色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="blue"&gt;蓝色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="indigo"&gt;靛青按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="violet"&gt;蓝紫按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="purple"&gt;紫色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="pink"&gt;粉色按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="rainbow"&gt;彩虹按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="rainbow reverse"&gt;彩虹按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="orange" disabled&gt;禁用按钮&lt;/button&gt;</pre>
+      <pre>&lt;button class="indigo" disabled&gt;禁用按钮&lt;/button&gt;</pre>
     </code>
     <p class="space">
       <button class="white">白色按钮</button>
@@ -227,15 +282,16 @@
     </p>
     <hr />
     <h5>表单</h5>
+    <!-- prettier-ignore -->
     <code>
-      <form onsubmit="return false">
-        <label for="name">姓名</label>
-        <input id="name" type="text" placeholder="请输入姓名" />
-        <br />
-        <label for="password">密码</label>
-        <input id="password" type="password" placeholder="请输入密码" />
-        <button class="blue">确认</button>
-      </form>
+      <pre>&lt;form onsubmit="return false"&gt;</pre>
+      <pre>  &lt;label for="name"&gt;姓名&lt;/label&gt;</pre>
+      <pre>  &lt;input id="name" type="text" placeholder="请输入姓名" /&gt;</pre>
+      <pre>  &lt;br /&gt;</pre>
+      <pre>  &lt;label for="password"&gt;密码&lt;/label&gt;</pre>
+      <pre>  &lt;input id="password" type="password" placeholder="请输入密码" /&gt;</pre>
+      <pre>  &lt;button class="blue"&gt;确认&lt;/button&gt;</pre>
+      <pre>&lt;/form&gt;</pre>
     </code>
     <form onsubmit="return false">
       <label for="sedom-name">用户</label>
@@ -247,39 +303,46 @@
     </form>
     <hr />
     <h5>表格</h5>
+    <!-- prettier-ignore -->
     <code>
-      <table>
-        <thead>
-          <tr>
-            <th>名称</th>
-            <th>链接</th>
-            <th>描述</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>🎯 Moint</td>
-            <td>
-              <a class="blue" href="https://monit.fzf404.art/" target="_blank"> monit.fzf404.art </a>
-            </td>
-            <td>桌面小组件</td>
-          </tr>
-          <tr>
-            <td>📦 Tabox</td>
-            <td>
-              <a class="pink" href="https://tab.fzf404.art/" target="_blank"> tab.fzf404.art </a>
-            </td>
-            <td>新起始页</td>
-          </tr>
-          <tr>
-            <td>🎲 Pixxel</td>
-            <td>
-              <a class="green" href="https://px.fzf404.art/" target="_blank"> px.fzf404.art </a>
-            </td>
-            <td>像素画工具</td>
-          </tr>
-        </tbody>
-      </table>
+      <pre>&lt;table&gt;</pre>
+      <pre>  &lt;thead&gt;</pre>
+      <pre>    &lt;tr&gt;</pre>
+      <pre>      &lt;th&gt;名称&lt;/th&gt;</pre>
+      <pre>      &lt;th&gt;链接&lt;/th&gt;</pre>
+      <pre>      &lt;th&gt;描述&lt;/th&gt;</pre>
+      <pre>    &lt;/tr&gt;</pre>
+      <pre>  &lt;/thead&gt;</pre>
+      <pre>  &lt;tbody&gt;</pre>
+      <pre>    &lt;tr&gt;</pre>
+      <pre>      &lt;td&gt;🎯 Moint&lt;/td&gt;</pre>
+      <pre>      &lt;td&gt;</pre>
+      <pre>        &lt;a class="blue" href="https://monit.fzf404.art/" target="_blank"&gt;</pre>
+      <pre>          monit.fzf404.art</pre>
+      <pre>        &lt;/a&gt;</pre>
+      <pre>      &lt;/td&gt;</pre>
+      <pre>      &lt;td&gt;桌面小组件&lt;/td&gt;</pre>
+      <pre>    &lt;/tr&gt;</pre>
+      <pre>    &lt;tr&gt;</pre>
+      <pre>      &lt;td&gt;📦 Tabox&lt;/td&gt;</pre>
+      <pre>      &lt;td&gt;</pre>
+      <pre>        &lt;a class="pink" href="https://tab.fzf404.art/" target="_blank"&gt;</pre>
+      <pre>          tab.fzf404.art</pre>
+      <pre>        &lt;/a&gt;</pre>
+      <pre>      &lt;/td&gt;</pre>
+      <pre>      &lt;td&gt;新起始页&lt;/td&gt;</pre>
+      <pre>    &lt;/tr&gt;</pre>
+      <pre>    &lt;tr&gt;</pre>
+      <pre>      &lt;td&gt;🎲 Pixxel&lt;/td&gt;</pre>
+      <pre>      &lt;td&gt;</pre>
+      <pre>        &lt;a class="green" href="https://px.fzf404.art/" target="_blank"&gt;</pre>
+      <pre>          px.fzf404.art</pre>
+      <pre>        &lt;/a&gt;</pre>
+      <pre>      &lt;/td&gt;</pre>
+      <pre>      &lt;td&gt;像素画工具&lt;/td&gt;</pre>
+      <pre>    &lt;/tr&gt;</pre>
+      <pre>  &lt;/tbody&gt;</pre>
+      <pre>&lt;/table&gt;</pre>
     </code>
     <table>
       <thead>
@@ -293,21 +356,27 @@
         <tr>
           <td>🎯 Moint</td>
           <td>
-            <a class="blue" href="https://monit.fzf404.art/" target="_blank"> monit.fzf404.art </a>
+            <a class="blue" href="https://monit.fzf404.art/" target="_blank">
+              monit.fzf404.art
+            </a>
           </td>
           <td>桌面小组件</td>
         </tr>
         <tr>
           <td>📦 Tabox</td>
           <td>
-            <a class="pink" href="https://tab.fzf404.art/" target="_blank"> tab.fzf404.art </a>
+            <a class="pink" href="https://tab.fzf404.art/" target="_blank">
+              tab.fzf404.art
+            </a>
           </td>
           <td>新起始页</td>
         </tr>
         <tr>
           <td>🎲 Pixxel</td>
           <td>
-            <a class="green" href="https://px.fzf404.art/" target="_blank"> px.fzf404.art </a>
+            <a class="green" href="https://px.fzf404.art/" target="_blank">
+              px.fzf404.art
+            </a>
           </td>
           <td>像素画工具</td>
         </tr>
@@ -315,31 +384,35 @@
     </table>
     <hr />
     <h5>分隔</h5>
+    <!-- prettier-ignore -->
     <code>
-      <hr />
+      <pre>&lt;hr /&gt;</pre>
     </code>
     <hr />
     <h5>媒体</h5>
+    <!-- prettier-ignore -->
     <code>
-      <audio controls src="/asset/internationale.mp3"></audio>
+      <pre>&lt;audio controls src="/asset/internationale.mp3"&gt;&lt;/audio&gt;</pre>
     </code>
     <audio controls src="/asset/internationale.mp3"></audio>
     <hr />
     <h3>附加功能</h3>
     <hr />
     <h5>主题</h5>
+    <!-- prettier-ignore -->
     <code>
-      <button class="theme">🌓</button>
+      <pre>&lt;button class="theme"&gt;🌓&lt;/button&gt;</pre>
     </code>
     <p>将会在右下角显示主题切换按钮。</p>
     <hr />
     <h5>位置</h5>
+    <!-- prettier-ignore -->
     <code>
-      <p class="center">
-        <button class="left">居左</button>
-        <button>居中</button>
-        <button class="right">居右</button>
-      </p>
+      <pre>&lt;p class="center"&gt;</pre>
+      <pre>  &lt;button class="left"&gt;居左&lt;/button&gt;</pre>
+      <pre>  &lt;button&gt;居中&lt;/button&gt;</pre>
+      <pre>  &lt;button class="right"&gt;居右&lt;/button&gt;</pre>
+      <pre>&lt;/p&gt;</pre>
     </code>
     <p class="center">
       <button class="red left">居左</button>
@@ -348,13 +421,14 @@
     </p>
     <hr />
     <h5>间距</h5>
+    <!-- prettier-ignore -->
     <code>
-      <p class="space">
-        <span>富强</span>
-        <span>民主</span>
-        <span>文明</span>
-        <span>和谐</span>
-      </p>
+      <pre>&lt;p class="space"&gt;</pre>
+      <pre>  &lt;span&gt;富强&lt;/span&gt;</pre>
+      <pre>  &lt;span&gt;民主&lt;/span&gt;</pre>
+      <pre>  &lt;span&gt;文明&lt;/span&gt;</pre>
+      <pre>  &lt;span&gt;和谐&lt;/span&gt;</pre>
+      <pre>&lt;/p&gt;</pre>
     </code>
     <p class="space">
       <span>富强</span>
@@ -364,13 +438,14 @@
     </p>
     <hr />
     <h5>动画</h5>
+    <!-- prettier-ignore -->
     <code>
-      <button class="jump">跳跃</button>
-      <button class="jump">👍</button>
-      <button>静止</button>
-      <button>✋</button>
-      <button class="wave">摆动</button>
-      <button class="wave">👋</button>
+      <pre>&lt;button class="jump"&gt;跳跃&lt;/button&gt;</pre>
+      <pre>&lt;button class="jump"&gt;👍&lt;/button&gt;</pre>
+      <pre>&lt;button&gt;静止&lt;/button&gt;</pre>
+      <pre>&lt;button&gt;✋&lt;/button&gt;</pre>
+      <pre>&lt;button class="wave"&gt;摆动&lt;/button&gt;</pre>
+      <pre>&lt;button class="wave"&gt;👋&lt;/button&gt;</pre>
     </code>
     <p class="space">
       <button class="violet jump">跳跃</button>
