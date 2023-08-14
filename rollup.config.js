@@ -1,10 +1,13 @@
-import sass from 'rollup-plugin-sass'
+import copy from 'rollup-plugin-copy'
+import scss from 'rollup-plugin-scss'
 import commonjs from '@rollup/plugin-commonjs'
 import json from '@rollup/plugin-json'
 import resolve from '@rollup/plugin-node-resolve'
+import terser from '@rollup/plugin-terser'
 
+/** @type {import('rollup').RollupOptions'} */
 export default {
-  input: './index.js',
+  input: 'index.js',
   output: [
     {
       name: 'Sedom',
@@ -12,24 +15,25 @@ export default {
       file: 'dist/sedom.js',
     },
     {
-      file: 'dist/sedom.esm.js',
-      format: 'esm',
-    },
-    {
       name: 'Sedom',
-      format: 'iife',
-      file: 'docs/dist/sedom.js',
+      format: 'esm',
+      file: 'dist/sedom.esm.js',
     },
   ],
   plugins: [
     json(),
+    terser(),
     resolve(),
     commonjs(),
-    sass({
-      output: 'dist/sedom.css',
+    scss({
+      fileName: 'sedom.css',
+      outputStyle: 'compressed',
     }),
-    sass({
-      output: 'docs/dist/sedom.css',
+    copy({
+      targets: [
+        { src: 'dist/sedom.css', dest: 'docs/dist' },
+        { src: 'dist/sedom.js', dest: 'docs/dist' },
+      ],
     }),
   ],
 }

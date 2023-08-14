@@ -7,12 +7,12 @@ import resolve from '@rollup/plugin-node-resolve'
 
 /** @type {import('rollup').RollupOptions'} */
 export default {
-  input: './index.js',
+  input: 'index.js',
   output: [
     {
-      file: 'docs/dist/sedom.js',
-      format: 'iife',
       name: 'Sedom',
+      format: 'iife',
+      file: 'docs/dist/sedom.js',
     },
   ],
   plugins: [

@@ -18,7 +18,10 @@
 <p align="center">A minimal style library ( 一个极简样式库 )</p>
 
 <p align="center">
-  <a target="_blank" href="https://github.com/fzf404/Sedom" > GitHub ( 代码 ) </a> ·
-  <a target="_blank" href="https://sedom.fzf404.art/"> Home ( 网站 ) </a> ·
-  <a target="_blank" href="https://sedom.fzf404.art/docs/"> Docs ( 文档 ) </a>
+  <a target="_blank" href="https://github.com/fzf404/Sedom" > GitHub ( 代码 ) </a>
+  <span> · </span>
+  <a target="_blank" href="https://sedom.fzf404.art/"> Home ( 网站 ) </a>
+  <span> · </span>
+<a target="_blank" href="https://sedom.fzf404.art/docs/"> Docs ( 文档 ) </a>
+
 </p>
