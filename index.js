@@ -1,8 +1,8 @@
-import { init } from './src/sedom'
+import { init } from './scripts/sedom'
 
-import './style/sedom.scss'
+import './styles/sedom.scss'
 
-export { getTheme, toggleTheme } from './src/theme'
-export { init, update } from './src/sedom'
+export { getTheme, toggleTheme } from './scripts/theme'
+export { init, update } from './scripts/sedom'
 
 init()
