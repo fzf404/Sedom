@@ -6,10 +6,10 @@ import { initVersion } from './version'
 export const update = () => {
   initCode()
   initHover()
-  initTheme()
 }
 
 export const init = () => {
+  initTheme()
   initVersion()
   document.addEventListener('DOMContentLoaded', update)
 }
