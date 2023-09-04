@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^0.4.6
     version: 0.4.7(eslint@8.48.0)(prettier@3.0.2)(typescript@5.1.6)
   '@fzf404/prettier-config':
-    specifier: ^0.5.4
-    version: 0.5.9(postcss@8.4.27)(prettier@3.0.2)
+    specifier: ^0.6.0
+    version: 0.6.0(postcss@8.4.27)(prettier@3.0.2)
   '@fzf404/stylelint-config':
     specifier: ^0.1.2
     version: 0.1.2(postcss@8.4.27)(prettier@3.0.2)(stylelint@15.10.3)
@@ -363,8 +363,8 @@ packages:
       - typescript
     dev: true
 
-  /@fzf404/prettier-config@0.5.9(postcss@8.4.27)(prettier@3.0.2):
-    resolution: {integrity: sha512-vyC57KKCYZuyDLgny1egPaosPioT18ruuRzcEhYBbyn4BQguUaMST8MTALqS49TRcuNFgsds8gbuOgMUt7EFpQ==}
+  /@fzf404/prettier-config@0.6.0(postcss@8.4.27)(prettier@3.0.2):
+    resolution: {integrity: sha512-hxEeMlBLH4SC//qI6Sg7VxXKMud+h7T1p+y/0XUWd6gKIEnXSccJwYxU4P06GMLv/cTXlTowIbIk4Gjzm6BCuA==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
