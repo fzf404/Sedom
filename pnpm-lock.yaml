@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@fzf404/eslint-config':
-    specifier: ^0.4.6
-    version: 0.4.7(eslint@8.48.0)(prettier@3.0.3)(typescript@5.1.6)
+    specifier: ^0.5.0
+    version: 0.5.0(eslint@8.48.0)(prettier@3.0.3)(typescript@5.1.6)
   '@fzf404/prettier-config':
     specifier: ^0.6.0
     version: 0.6.1(postcss@8.4.27)(prettier@3.0.3)
@@ -338,8 +338,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fzf404/eslint-config@0.4.7(eslint@8.48.0)(prettier@3.0.3)(typescript@5.1.6):
-    resolution: {integrity: sha512-InRu4ndr0KgqqtcJDEV5yGClEKIusOrft3T1lvOVMGG80Tilt+7aBtTlcTbLxR6MpR7etF5OgSuF+txTFZAUeQ==}
+  /@fzf404/eslint-config@0.5.0(eslint@8.48.0)(prettier@3.0.3)(typescript@5.1.6):
+    resolution: {integrity: sha512-OfuUZS5Q0TymZdDR2X5YXf43wjXVKIK6z4m6FzfjycNvLY4D8bsZAPxCFS4eKq2bgwxzkqnhg1vr5XQvuXfTCg==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
@@ -354,6 +354,7 @@ packages:
       eslint-plugin-prettier: 5.0.0(eslint-config-prettier@9.0.0)(eslint@8.48.0)(prettier@3.0.3)
       eslint-plugin-unicorn: 48.0.1(eslint@8.48.0)
       eslint-plugin-vue: 9.17.0(eslint@8.48.0)
+      local-pkg: 0.4.3
     transitivePeerDependencies:
       - '@types/eslint'
       - eslint-import-resolver-typescript
