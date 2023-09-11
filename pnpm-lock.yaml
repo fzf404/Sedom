@@ -10,7 +10,7 @@ devDependencies:
     version: 0.4.7(eslint@8.48.0)(prettier@3.0.3)(typescript@5.1.6)
   '@fzf404/prettier-config':
     specifier: ^0.6.0
-    version: 0.6.0(postcss@8.4.27)(prettier@3.0.3)
+    version: 0.6.1(postcss@8.4.27)(prettier@3.0.3)
   '@fzf404/stylelint-config':
     specifier: ^0.1.2
     version: 0.1.2(postcss@8.4.27)(prettier@3.0.3)(stylelint@15.10.3)
@@ -363,12 +363,13 @@ packages:
       - typescript
     dev: true
 
-  /@fzf404/prettier-config@0.6.0(postcss@8.4.27)(prettier@3.0.3):
-    resolution: {integrity: sha512-hxEeMlBLH4SC//qI6Sg7VxXKMud+h7T1p+y/0XUWd6gKIEnXSccJwYxU4P06GMLv/cTXlTowIbIk4Gjzm6BCuA==}
+  /@fzf404/prettier-config@0.6.1(postcss@8.4.27)(prettier@3.0.3):
+    resolution: {integrity: sha512-cA/Eutn9Mda1YbbR3TWRYkMarLpKRtsajxtIycCfCF2KNepiSST6A9RUiJDOuPvrHkCBTjFt88rJZmplTZAG9Q==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
       '@ianvs/prettier-plugin-sort-imports': 4.1.0(prettier@3.0.3)
+      local-pkg: 0.4.3
       prettier: 3.0.3
       prettier-plugin-css-order: 2.0.0(postcss@8.4.27)(prettier@3.0.3)
       prettier-plugin-tailwindcss: 0.5.2(@ianvs/prettier-plugin-sort-imports@4.1.0)(prettier-plugin-css-order@2.0.0)(prettier@3.0.3)
@@ -2497,6 +2498,11 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
+    dev: true
+
+  /local-pkg@0.4.3:
+    resolution: {integrity: sha512-SFppqq5p42fe2qcZQqqEOiVRXl+WCP1MdT6k7BDEW1j++sp5fIY+/fdRQitvKgB5BrBcmrs5m/L0v2FrU5MY1g==}
+    engines: {node: '>=14'}
     dev: true
 
   /locate-path@5.0.0:
