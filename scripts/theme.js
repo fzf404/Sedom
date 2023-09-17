@@ -7,9 +7,9 @@ export const getTheme = () => {
       return 'light'
     }
     default: {
-      return window.matchMedia('(prefers-color-scheme: light)').matches
-        ? 'light'
-        : 'dark'
+      return window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light'
     }
   }
 }
@@ -29,7 +29,4 @@ export const toggleTheme = () => {
 
 export const initTheme = () => {
   document.documentElement.dataset.theme = getTheme()
-  for (const el of document.querySelectorAll('.theme')) {
-    el.addEventListener('click', toggleTheme)
-  }
 }
