@@ -52,7 +52,7 @@ devDependencies:
     version: 2.0.2
   sass:
     specifier: ^1.67.0
-    version: 1.67.0
+    version: 1.68.0
   stylelint:
     specifier: ^15.10.3
     version: 15.10.3(typescript@5.2.2)
@@ -2870,7 +2870,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.2(rollup@3.29.2)
       resolve: 1.22.4
-      sass: 1.67.0
+      sass: 1.68.0
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2937,8 +2937,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /sass@1.67.0:
-    resolution: {integrity: sha512-SVrO9ZeX/QQyEGtuZYCVxoeAL5vGlYjJ9p4i4HFuekWl8y/LtJ7tJc10Z+ck1c8xOuoBm2MYzcLfTAffD0pl/A==}
+  /sass@1.68.0:
+    resolution: {integrity: sha512-Lmj9lM/fef0nQswm1J2HJcEsBUba4wgNx2fea6yJHODREoMFnwRpZydBnX/RjyXw2REIwdkbqE4hrTo4qfDBUA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
