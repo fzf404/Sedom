@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@fzf404/eslint-config':
     specifier: ^0.5.5
-    version: 0.5.6(eslint@8.49.0)(prettier@3.0.3)(typescript@5.2.2)
+    version: 0.5.7(eslint@8.49.0)(prettier@3.0.3)(typescript@5.2.2)
   '@fzf404/prettier-config':
     specifier: ^0.7.0
     version: 0.7.0(prettier@3.0.3)
@@ -161,8 +161,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fzf404/eslint-config@0.5.6(eslint@8.49.0)(prettier@3.0.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-0G9Tsq61AhFZbxm/SiWcj+bQ+N7AX52T1Om6jhfKkQbUpqykG1p1VZ8Zdod+RAVbP99lVA3f3K5wkq5i/iSYEg==}
+  /@fzf404/eslint-config@0.5.7(eslint@8.49.0)(prettier@3.0.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-0Q1YqJlF8sXp4gTTpc1cgmojxs65vSqwiGOnxeE75xfd0nJPBK8rTvj2e/s2xDFz6+F1gXv3EZu1NfKkkFTJ4Q==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       eslint: ^8.0.0
