@@ -52,7 +52,7 @@ devDependencies:
     version: 2.0.2
   sass:
     specifier: ^1.67.0
-    version: 1.68.0
+    version: 1.69.3
   stylelint:
     specifier: ^15.10.3
     version: 15.10.3(typescript@5.2.2)
@@ -362,21 +362,6 @@ packages:
       serialize-javascript: 6.0.1
       smob: 1.4.0
       terser: 5.19.2
-    dev: true
-
-  /@rollup/pluginutils@5.0.2(rollup@3.29.4):
-    resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0
-    peerDependenciesMeta:
-      rollup:
-        optional: true
-    dependencies:
-      '@types/estree': 1.0.1
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-      rollup: 3.29.4
     dev: true
 
   /@rollup/pluginutils@5.0.4(rollup@3.29.4):
@@ -2861,7 +2846,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.4(rollup@3.29.4)
       resolve: 1.22.6
-      sass: 1.68.0
+      sass: 1.69.3
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2928,8 +2913,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /sass@1.68.0:
-    resolution: {integrity: sha512-Lmj9lM/fef0nQswm1J2HJcEsBUba4wgNx2fea6yJHODREoMFnwRpZydBnX/RjyXw2REIwdkbqE4hrTo4qfDBUA==}
+  /sass@1.69.3:
+    resolution: {integrity: sha512-X99+a2iGdXkdWn1akFPs0ZmelUzyAQfvqYc2P/MPTrJRuIRoTffGzT9W9nFqG00S+c8hXzVmgxhUuHFdrwxkhQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
