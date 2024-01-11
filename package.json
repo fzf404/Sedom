@@ -30,7 +30,7 @@
     "@rollup/plugin-terser": "^0.4.3",
     "eslint": "^8.49.0",
     "prettier": "^3.0.3",
-    "rollup": "^3.29.2",
+    "rollup": "^4.9.4",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-sass": "^1.12.20",
