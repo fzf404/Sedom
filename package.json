@@ -37,7 +37,7 @@
     "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-serve": "^3.0.0",
     "sass": "^1.70.0",
-    "stylelint": "^15.11.0"
+    "stylelint": "^16.2.0"
   },
   "prettier": "@fzf404/prettier-config",
   "stylelint": {
