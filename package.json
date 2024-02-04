@@ -29,7 +29,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "eslint": "^8.56.0",
-    "prettier": "^3.2.4",
+    "prettier": "^3.2.5",
     "rollup": "^4.9.6",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-livereload": "^2.0.5",
@@ -37,7 +37,7 @@
     "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-serve": "^3.0.0",
     "sass": "^1.70.0",
-    "stylelint": "^16.2.0"
+    "stylelint": "^16.2.1"
   },
   "prettier": "@fzf404/prettier-config",
   "stylelint": {
