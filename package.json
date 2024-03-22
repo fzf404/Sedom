@@ -21,7 +21,7 @@
     "format": "prettier --cache --write ."
   },
   "devDependencies": {
-    "@fzf404/eslint-config": "^0.5.9",
+    "@fzf404/eslint-config": "^0.5.10",
     "@fzf404/prettier-config": "^0.7.0",
     "@fzf404/stylelint-config": "^0.1.3",
     "@rollup/plugin-commonjs": "^25.0.7",
