@@ -30,14 +30,14 @@
     "@rollup/plugin-terser": "^0.4.4",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "rollup": "^4.13.0",
+    "rollup": "^4.13.2",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-sass": "^1.12.21",
     "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-serve": "^3.0.0",
     "sass": "^1.72.0",
-    "stylelint": "^16.3.0"
+    "stylelint": "^16.3.1"
   },
   "prettier": "@fzf404/prettier-config",
   "stylelint": {
