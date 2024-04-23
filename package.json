@@ -17,8 +17,8 @@
   "scripts": {
     "dev": "rollup --config rollup.config.dev.js --watch",
     "build": "rollup --config rollup.config.js",
+    "format": "prettier --cache --write .",
     "lint": "eslint --cache --fix . && stylelint --cache --fix '**/*.scss'",
-    "format": "prettier --cache --write ."
   },
   "devDependencies": {
     "@fzf404/eslint-config": "^0.5.12",
