@@ -3,18 +3,18 @@ code {
   position: relative;
   box-sizing: border-box;
   margin: $edge-header 0;
-  border-radius: $radius-normal;
   padding: $edge-inline $edge-block;
   overflow: auto;
+  border-radius: $radius-normal;
   white-space: pre;
 
   pre {
     display: block;
-    margin: 0;
     min-height: $font-size-small + $line-height-small;
+    margin: 0;
+    font-family: $font-family-mono;
     font-size: $font-size-code;
     line-height: $font-size-small + $line-height-normal;
-    font-family: $font-family-mono;
   }
 }
 

@@ -1,12 +1,12 @@
 table {
+  min-width: $table-width;
   border-collapse: collapse;
   background-color: transparent;
-  min-width: $table-width;
 
   th,
   td {
-    border-radius: $radius-small;
     padding: $edge-block;
+    border-radius: $radius-small;
     text-align: center;
   }
 

@@ -2,11 +2,11 @@
   position: fixed;
   right: 4vw;
   bottom: 4vw;
-  margin: 0;
-  border-radius: $radius-circle;
-  padding: 0;
   width: $font-size-large + $line-height-large * 2;
   height: $font-size-large + $line-height-large * 2;
+  margin: 0;
+  padding: 0;
+  border-radius: $radius-circle;
   font-size: $font-size-large;
 }
 

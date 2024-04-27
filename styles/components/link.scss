@@ -1,19 +1,19 @@
 a {
   display: inline-block;
   position: relative;
-  cursor: pointer;
   margin: $edge-base $edge-inline;
   padding: $edge-space;
   text-decoration: none;
+  cursor: pointer;
 
   &::after {
-    position: absolute;
-    opacity: 0.4;
-    z-index: -1;
-    inset: 60% (-$edge-space) 0 (-$edge-space);
-    border-radius: $radius-normal;
-    background-color: $color-middle;
     content: '';
+    position: absolute;
+    z-index: -1;
+    border-radius: $radius-normal;
+    opacity: 0.4;
+    background-color: $color-middle;
+    inset: 60% (-$edge-space) 0 (-$edge-space);
   }
 
   &:hover::after {
@@ -21,7 +21,7 @@ a {
   }
 
   &:active::after {
-    opacity: 0.2;
     transition: none;
+    opacity: 0.2;
   }
 }

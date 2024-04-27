@@ -1,23 +1,23 @@
 button {
   display: inline-block;
-  opacity: 0.6;
-  cursor: pointer;
   margin: $edge-base;
-  outline: none;
+  padding: $edge-space $edge-block;
   border: none;
   border-radius: $radius-normal;
+  outline: none;
+  opacity: 0.6;
   background-color: $color-gray;
-  padding: $edge-space $edge-block;
   font-size: $font-size-normal;
   line-height: $font-size-normal + $line-height-normal;
+  cursor: pointer;
 
   &:hover {
     opacity: 1;
   }
 
   &:active {
-    opacity: 0.4;
     transition: none;
+    opacity: 0.4;
   }
 
   &:disabled {
