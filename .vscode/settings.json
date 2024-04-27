@@ -2,15 +2,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "eslint.validate": [
-    "html",
-    "json",
-    "jsonc",
-    "markdown",
-    "javascript",
-  ],
-  "stylelint.validate": [ "scss"],
-
+  "eslint.validate": ["html", "json", "jsonc", "markdown", "javascript"],
+  "stylelint.validate": ["scss"],
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -22,6 +15,5 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
+  }
 }
