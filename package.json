@@ -21,7 +21,7 @@
     "lint": "eslint --cache --fix . && stylelint --cache --fix '**/*.scss'"
   },
   "devDependencies": {
-    "@fzf404/eslint-config": "^0.6.7",
+    "@fzf404/eslint-config": "^0.6.8",
     "@fzf404/prettier-config": "^0.7.5",
     "@fzf404/stylelint-config": "^0.1.6",
     "@rollup/plugin-commonjs": "^25.0.7",
