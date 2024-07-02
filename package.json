@@ -21,7 +21,7 @@
     "lint": "eslint --cache --fix . && stylelint --cache --fix '**/*.scss'"
   },
   "devDependencies": {
-    "@fzf404/eslint-config": "^0.6.8",
+    "@fzf404/eslint-config": "^0.6.9",
     "@fzf404/prettier-config": "^0.7.5",
     "@fzf404/stylelint-config": "^0.1.6",
     "@rollup/plugin-commonjs": "^26.0.1",
@@ -31,10 +31,10 @@
     "rollup": "^4.18.0",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-sass": "^1.12.22",
+    "rollup-plugin-sass": "^1.13.1",
     "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-serve": "^3.0.0",
-    "sass": "^1.77.5",
+    "sass": "^1.77.6",
     "stylelint": "^16.6.1"
   },
   "prettier": "@fzf404/prettier-config",
